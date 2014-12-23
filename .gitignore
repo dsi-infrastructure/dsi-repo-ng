@@ -2,4 +2,5 @@
 tmp/
 cookbooks/
 .chef/*.pem
+.chef/knife.rb
 .chef/encrypted_data_bag_secret
