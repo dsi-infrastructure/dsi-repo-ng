@@ -1,0 +1,110 @@
+site "https://supermarket.getchef.com/api/v1"
+
+# Cookbook externe via le supermarket
+#
+cookbook 'chef-client'
+cookbook 'chef-server'
+cookbook 'database'
+cookbook 'iptables-ng'
+cookbook 'keepalived'
+cookbook 'locales'
+cookbook 'nscd'
+cookbook 'ntp'
+cookbook 'postfix'
+cookbook 'resolver'
+cookbook 'rsyslog'
+cookbook 'squid'
+cookbook 'sudo'
+cookbook 'timezone'
+cookbook 'users'
+cookbook 'sensu'
+cookbook 'elasticsearch'
+cookbook 'logstash'
+
+# Cookbook externe via Github
+#
+cookbook 'haproxy',
+  :git => 'https://github.com/hw-cookbooks/haproxy',
+  :ref => 'bd58b4d9b6812e3519ef9d96389c6f6bb8ca04c4'
+
+cookbook 'limits',
+  :git => 'https://github.com/jrwesolo/limits',
+  :ref => '33335bd0819dc2a7a96a7253c634a574a531d4ba'
+
+cookbook 'ohai',
+  :git => 'https://github.com/opscode-cookbooks/ohai',
+  :ref => '63b78a4852dbff33cc33fc9753d8f19d2232d8d8'
+
+cookbook 'cookbook-snmp',
+  :git => 'https://github.com/atomic-penguin/cookbook-snmp',
+  :ref => '13f1223b5ccca96588530f6129bfdde6f065580e'
+
+cookbook 'sysctl',
+  :git => 'https://github.com/viverae-cookbooks/sysctl',
+  :ref => '8d0bcf83179a59b1bc83c57be143b990c2d395e4'
+
+cookbook 'awstat',
+  :git => 'https://github.com/fooforge/chef-cookbook_awstats'
+
+# Developpement interne DSI
+#
+cookbook 'chef-iproute2',
+  :git => 'https://github.com/peychart/chef-iproute2',
+  :ref => '0f678690b208ea32555c439de0bf34a68f02a293'
+
+cookbook 'chef-aggregator',
+  :git => 'https://github.com/peychart/chef-aggregator',
+  :ref => '13c013eecc2ce7d82b1f978581040ce514cc9292'
+
+cookbook 'chef-delegate',
+  :git => 'https://github.com/peychart/chef-delegate',
+  :ref => '271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5'
+
+cookbook 'chef-haproxy-ng',
+  :git => 'https://github.com/peychart/chef-haproxy-ng',
+  :ref => '22e4618ba6775797653d78e9d0a80e746af96b82'
+
+cookbook 'chef-hostfile',
+  :git => 'https://github.com/peychart/chef-hostsfile',
+  :ref => '95a12f38abbb74de2cc231fa63fe14f67a2269a2'
+
+cookbook 'chef-ldap-checkbackend',
+  :git => 'https://github.com/peychart/chef-ldap-checkbackend',
+  :ref => 'f260d729e64e40e386a82bf9a77f622ed222467d'
+
+cookbook 'chef-lvm',
+  :git => 'https://github.com/peychart/chef-lvm',
+  :ref => 'd1de3774ed90fec1bb107cb4e8e6df91fa95e16a'
+
+cookbook 'chef-nodeAttributes',
+  :git => 'https://github.com/peychart/chef-nodeAttributes',
+  :ref => 'f8c8ae84a426ee328640b90f1011a1fe4826dc5d'
+
+cookbook 'chef-qmail',
+  :git => 'https://github.com/stephaneLII/chef-qmail',
+  :ref => '19e3df42d060e3adae9ec65b156d4eb3534866db'
+
+cookbook 'chef-squidGuard',
+  :git => 'https://github.com/peychart/chef-squidGuard',
+  :ref => '52a38e77fbf4471019a1e950d7aabff55094e947'
+
+cookbook 'chef-squid_ldap_auth',
+  :git => 'https://github.com/peychart/chef-squid_ldap_auth',
+  :ref => '05b3579ed3b7760e78c798cb883be4c43cb567e1'
+
+cookbook 'openldap',
+  :git => 'https://github.com/sitle/openldap',
+  :ref => '85efe51a7d0e44cb63a699125d6d4c98449b5b16'
+
+cookbook 'samba',
+  :git => 'https://github.com/sitle/chef-samba',
+  :ref => '61909a63ec6ef6a1ea07da21caeb2a3d0ebd9954'
+
+cookbook 'chef-monitor',
+  :git => 'https://github.com/sitle/chef-monitor',
+  :ref => '48ceb5b1e1a234c21256cb98683d7bfde3ae2fec'
+
+#cookbook 'mataara'
+#cookbook 'pacman' ???
+#cookbook 'chef-reverseproxy' ???
+#cookbook 'chef-specific.gov.pf', :git => 'https://github.com/peychart/chef-specific.gov.pf'
