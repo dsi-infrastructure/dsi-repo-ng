@@ -104,7 +104,7 @@ cookbook 'chef-monitor',
   :git => 'https://github.com/sitle/chef-monitor',
   :ref => '48ceb5b1e1a234c21256cb98683d7bfde3ae2fec'
 
-#cookbook 'mataara'
-#cookbook 'pacman' ???
-#cookbook 'chef-reverseproxy' ???
-#cookbook 'chef-specific.gov.pf', :git => 'https://github.com/peychart/chef-specific.gov.pf'
+cookbook 'chef-reverseproxy',
+    :git => 'https://github.com/dsi-infrastructure/chef-reverseproxy',
+      :ref => '5e11cc350747ebb6edb6c656c74128af36b1ff47'
+

@@ -137,6 +137,15 @@ GIT
     cookbook-snmp (3.0.1)
 
 GIT
+  remote: https://github.com/dsi-infrastructure/chef-reverseproxy
+  ref: 5e11cc350747ebb6edb6c656c74128af36b1ff47
+  sha: 5e11cc350747ebb6edb6c656c74128af36b1ff47
+  specs:
+    chef-reverseproxy (0.1.0)
+      apache2 (>= 0.0.0)
+      hostsfile (>= 0.0.0)
+
+GIT
   remote: https://github.com/fooforge/chef-cookbook_awstats
   ref: master
   sha: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
@@ -299,6 +308,7 @@ DEPENDENCIES
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
   chef-qmail (>= 0)
+  chef-reverseproxy (>= 0)
   chef-server (>= 0)
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
