@@ -105,6 +105,10 @@ cookbook 'chef-monitor',
   :ref => '48ceb5b1e1a234c21256cb98683d7bfde3ae2fec'
 
 cookbook 'chef-reverseproxy',
-    :git => 'https://github.com/dsi-infrastructure/chef-reverseproxy',
-      :ref => '5e11cc350747ebb6edb6c656c74128af36b1ff47'
+  :git => 'https://github.com/dsi-infrastructure/chef-reverseproxy',
+  :ref => '5e11cc350747ebb6edb6c656c74128af36b1ff47'
+
+cookbook 'mataara',
+  :git => 'https://gitlab.gov.pf/infrastructure/chef-mataara.git',
+  :ref => '1dade564841579c7e084f9fc6fa04c611c83aee7'
 

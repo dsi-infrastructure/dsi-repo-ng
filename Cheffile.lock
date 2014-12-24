@@ -295,6 +295,16 @@ GIT
     sysctl (0.6.0)
       ohai (>= 0.0.0)
 
+GIT
+  remote: https://gitlab.gov.pf/infrastructure/chef-mataara.git
+  ref: 1dade564841579c7e084f9fc6fa04c611c83aee7
+  sha: 1dade564841579c7e084f9fc6fa04c611c83aee7
+  specs:
+    mataara (0.1.0)
+      apt (>= 0.0.0)
+      database (>= 0.0.0)
+      mysql (>= 0.0.0)
+
 DEPENDENCIES
   awstat (>= 0)
   chef-aggregator (>= 0)
@@ -321,6 +331,7 @@ DEPENDENCIES
   limits (>= 0)
   locales (>= 0)
   logstash (>= 0)
+  mataara (>= 0)
   nscd (>= 0)
   ntp (>= 0)
   ohai (>= 0)
