@@ -42,7 +42,7 @@ librarian-chef install --verbose
 
 La récupération des cookbooks risque de prendre un moment suivant les débits de votre connexion internet. 
 
-**Remarque : ** Il y a un bug avec le nom du cookbook **chef-specific.gov.pf**, librarian ne sait pas géré les "." dans les noms de définition des cookbooks dans le fichier "Cheffile". Il faudra le renommer explicitement après chaque lancement de la commande "librarian-chef install --verbose" avant du mettre à jour un serveur chef.
+**Remarque : Il y a un bug avec le nom du cookbook chef-specific.gov.pf, librarian ne sait pas gérer les "." dans les noms de définition de cookbook (dans le fichier "Cheffile"). Il faudra le renommer explicitement après chaque lancement de la commande "librarian-chef install --verbose".** 
 
 ````
 mv cookbooks/chef-specific cookbooks/chef-specific.gov.pf
@@ -56,7 +56,8 @@ Les règles suivantes sont à appliquer :
 
 * La branche "master" est la branche de production et il est **interdit** d'écrire sur celle-ci ;
 * La branche "develop" est la branche de développement et il est **interdit** d'écrire sur celle-ci ;
+* **Chaque fonctionnalité** doivent être **décrite sur la page Issue de Github** avant d'être implémenté ;
 * **Chaque fonctionnalité** doivent faire l'objet d'une **branche spécifique** hérité de la branche "develop" ;
-* Un pull request concerne votre branche spécifique et la branche "develop" **uniquement** ;
+* Un pull request concerne votre branche spécifique et la branche "develop" **upstream uniquement** ;
 * Vous devez **intégrer les modifications** de la branche "develop" **avant** un pull request ;
-* Vous devez **obligatoirement intégrer l'environnement** que vous avez utilisé **dans le fichier Vagrantfile** (ce fichier contiendra la totalité des environnements de l'équipe afin de simplifier la revue et la compréhension des configurations) ;
+* Vous devez **obligatoirement intégrer l'environnement** que vous avez utilisé **dans le fichier Vagrantfile** (ce fichier contiendra la totalité des environnements de l'équipe afin de simplifier la revue et la compréhension des configurations par tous) ;
