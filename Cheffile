@@ -2,24 +2,24 @@ site "https://supermarket.getchef.com/api/v1"
 
 # Cookbook externe via le supermarket
 #
-cookbook 'chef-client'
-cookbook 'chef-server'
-cookbook 'database'
-cookbook 'iptables-ng'
-cookbook 'keepalived'
-cookbook 'locales'
-cookbook 'nscd'
-cookbook 'ntp'
-cookbook 'postfix'
-cookbook 'resolver'
-cookbook 'rsyslog'
-cookbook 'squid'
-cookbook 'sudo'
-cookbook 'timezone'
-cookbook 'users'
-cookbook 'sensu'
-cookbook 'elasticsearch'
-cookbook 'logstash'
+cookbook 'chef-client', :version => '4.0.0'
+cookbook 'chef-server', :version => '2.1.6'
+cookbook 'database', :version => '2.3.1'
+cookbook 'iptables-ng', :version => '2.2.4'
+cookbook 'keepalived', :version => '1.2.0'
+cookbook 'locales', :version => '0.3.1'
+cookbook 'nscd', :version => '0.12.0'
+cookbook 'ntp', :version => '1.7.0'
+cookbook 'postfix', :version => '3.6.2'
+cookbook 'resolver', :version => '1.2.0'
+cookbook 'rsyslog', :version => '1.13.0'
+cookbook 'squid', :version => '0.5.2'
+cookbook 'sudo', :version => '2.7.1'
+cookbook 'timezone', :version => '0.0.1'
+cookbook 'users', :version => '1.7.0'
+cookbook 'sensu', :version => '2.3.0'
+cookbook 'elasticsearch', :version => '0.3.10'
+cookbook 'logstash', :version => '0.11.2'
 
 # Cookbook externe via Github
 #
@@ -44,7 +44,12 @@ cookbook 'sysctl',
   :ref => '8d0bcf83179a59b1bc83c57be143b990c2d395e4'
 
 cookbook 'awstat',
-  :git => 'https://github.com/fooforge/chef-cookbook_awstats'
+  :git => 'https://github.com/fooforge/chef-cookbook_awstats',
+  :ref => '4a9beb71734833fd09693f06dc53f2330ac7f0c4'
+
+cookbook 'apt-cacher-ng',
+  :git => 'https://github.com/shellycloud/apt-cacher-ng',
+  :ref => '8f44fe1e87f1e8d5a8d992223971a8223cde4b40'
 
 # Developpement interne DSI
 #
@@ -111,4 +116,28 @@ cookbook 'chef-reverseproxy',
 cookbook 'mataara',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-mataara.git',
   :ref => '1dade564841579c7e084f9fc6fa04c611c83aee7'
+
+cookbook 'chef-caimito',
+  :git => 'https://github.com/peychart/chef-caimito',
+  :ref => '658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a'
+
+cookbook 'chef-crontab',
+  :git => 'https://github.com/peychart/chef-crontab',
+  :ref => '76dcd654c0a5d1c606ce727873dcc0d0947b09d2'
+
+cookbook 'chef-iptables',
+  :git => 'https://github.com/peychart/chef-iptables',
+  :ref => 'c760eb5882b7116966dd3ee4524f06616809f144'
+
+cookbook 'chef-iscsiadm',
+  :git => 'https://github.com/peychart/chef-iscsiadm',
+  :ref => 'db84a1d9b5612bf1807a6df37a9cdb6bb4a4224a'
+
+cookbook 'chef-owncloud',
+  :git => 'https://github.com/peychart/chef-owncloud',
+  :ref => '1965ad66e5a5cc9fb861d3fd281f2ec8a33ae7d3'
+
+cookbook 'chef-specific',
+  :git => 'https://github.com/peychart/chef-specific.gov.pf',
+  :ref => '230a34fc8be8f05192d56eb604419fd182bcbced'
 

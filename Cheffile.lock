@@ -147,7 +147,7 @@ GIT
 
 GIT
   remote: https://github.com/fooforge/chef-cookbook_awstats
-  ref: master
+  ref: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
   sha: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
   specs:
     awstat (0.2.2)
@@ -186,6 +186,20 @@ GIT
       chef-iproute2 (>= 0.0.0)
 
 GIT
+  remote: https://github.com/peychart/chef-caimito
+  ref: 658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a
+  sha: 658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a
+  specs:
+    chef-caimito (0.1.0)
+
+GIT
+  remote: https://github.com/peychart/chef-crontab
+  ref: 76dcd654c0a5d1c606ce727873dcc0d0947b09d2
+  sha: 76dcd654c0a5d1c606ce727873dcc0d0947b09d2
+  specs:
+    chef-crontab (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-delegate
   ref: 271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5
   sha: 271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5
@@ -215,6 +229,20 @@ GIT
     chef-iproute2 (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-iptables
+  ref: c760eb5882b7116966dd3ee4524f06616809f144
+  sha: c760eb5882b7116966dd3ee4524f06616809f144
+  specs:
+    chef-iptables (0.1.0)
+
+GIT
+  remote: https://github.com/peychart/chef-iscsiadm
+  ref: db84a1d9b5612bf1807a6df37a9cdb6bb4a4224a
+  sha: db84a1d9b5612bf1807a6df37a9cdb6bb4a4224a
+  specs:
+    chef-iscsiadm (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-ldap-checkbackend
   ref: f260d729e64e40e386a82bf9a77f622ed222467d
   sha: f260d729e64e40e386a82bf9a77f622ed222467d
@@ -239,6 +267,20 @@ GIT
     chef-nodeAttributes (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-owncloud
+  ref: 1965ad66e5a5cc9fb861d3fd281f2ec8a33ae7d3
+  sha: 1965ad66e5a5cc9fb861d3fd281f2ec8a33ae7d3
+  specs:
+    chef-owncloud (0.1.0)
+
+GIT
+  remote: https://github.com/peychart/chef-specific.gov.pf
+  ref: 230a34fc8be8f05192d56eb604419fd182bcbced
+  sha: 230a34fc8be8f05192d56eb604419fd182bcbced
+  specs:
+    chef-specific (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-squidGuard
   ref: 52a38e77fbf4471019a1e950d7aabff55094e947
   sha: 52a38e77fbf4471019a1e950d7aabff55094e947
@@ -252,6 +294,13 @@ GIT
   sha: 05b3579ed3b7760e78c798cb883be4c43cb567e1
   specs:
     chef-squid_ldap_auth (0.1.0)
+
+GIT
+  remote: https://github.com/shellycloud/apt-cacher-ng
+  ref: 8f44fe1e87f1e8d5a8d992223971a8223cde4b40
+  sha: 8f44fe1e87f1e8d5a8d992223971a8223cde4b40
+  specs:
+    apt-cacher-ng (0.1.0)
 
 GIT
   remote: https://github.com/sitle/chef-monitor
@@ -306,20 +355,27 @@ GIT
       mysql (>= 0.0.0)
 
 DEPENDENCIES
+  apt-cacher-ng (>= 0)
   awstat (>= 0)
   chef-aggregator (>= 0)
+  chef-caimito (>= 0)
   chef-client (>= 0)
+  chef-crontab (>= 0)
   chef-delegate (>= 0)
   chef-haproxy-ng (>= 0)
   chef-hostsfile (>= 0)
   chef-iproute2 (>= 0)
+  chef-iptables (>= 0)
+  chef-iscsiadm (>= 0)
   chef-ldap-checkbackend (>= 0)
   chef-lvm (>= 0)
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
+  chef-owncloud (>= 0)
   chef-qmail (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
+  chef-specific (>= 0)
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
   cookbook-snmp (>= 0)
