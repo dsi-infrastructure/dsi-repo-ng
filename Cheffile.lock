@@ -267,6 +267,13 @@ GIT
     chef-nodeAttributes (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-owncloud
+  ref: 1965ad66e5a5cc9fb861d3fd281f2ec8a33ae7d3
+  sha: 1965ad66e5a5cc9fb861d3fd281f2ec8a33ae7d3
+  specs:
+    chef-owncloud (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-squidGuard
   ref: 52a38e77fbf4471019a1e950d7aabff55094e947
   sha: 52a38e77fbf4471019a1e950d7aabff55094e947
@@ -357,6 +364,7 @@ DEPENDENCIES
   chef-lvm (>= 0)
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
+  chef-owncloud (>= 0)
   chef-qmail (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
