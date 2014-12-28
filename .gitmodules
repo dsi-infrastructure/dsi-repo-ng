@@ -4,3 +4,6 @@
 [submodule "data_bags"]
 	path = data_bags
 	url = https://gitlab.gov.pf/infrastructure/chef-data_bags.git
+[submodule "environments"]
+	path = environments
+	url = https://gitlab.gov.pf/infrastructure/chef-environments.git
