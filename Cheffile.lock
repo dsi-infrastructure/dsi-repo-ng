@@ -147,7 +147,7 @@ GIT
 
 GIT
   remote: https://github.com/fooforge/chef-cookbook_awstats
-  ref: master
+  ref: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
   sha: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
   specs:
     awstat (0.2.2)
