@@ -229,6 +229,13 @@ GIT
     chef-iproute2 (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-iptables
+  ref: c760eb5882b7116966dd3ee4524f06616809f144
+  sha: c760eb5882b7116966dd3ee4524f06616809f144
+  specs:
+    chef-iptables (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-ldap-checkbackend
   ref: f260d729e64e40e386a82bf9a77f622ed222467d
   sha: f260d729e64e40e386a82bf9a77f622ed222467d
@@ -337,6 +344,7 @@ DEPENDENCIES
   chef-haproxy-ng (>= 0)
   chef-hostsfile (>= 0)
   chef-iproute2 (>= 0)
+  chef-iptables (>= 0)
   chef-ldap-checkbackend (>= 0)
   chef-lvm (>= 0)
   chef-monitor (>= 0)
