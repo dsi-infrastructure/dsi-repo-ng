@@ -254,6 +254,13 @@ GIT
     chef-squid_ldap_auth (0.1.0)
 
 GIT
+  remote: https://github.com/shellycloud/apt-cacher-ng
+  ref: 8f44fe1e87f1e8d5a8d992223971a8223cde4b40
+  sha: 8f44fe1e87f1e8d5a8d992223971a8223cde4b40
+  specs:
+    apt-cacher-ng (0.1.0)
+
+GIT
   remote: https://github.com/sitle/chef-monitor
   ref: 48ceb5b1e1a234c21256cb98683d7bfde3ae2fec
   sha: 48ceb5b1e1a234c21256cb98683d7bfde3ae2fec
@@ -306,6 +313,7 @@ GIT
       mysql (>= 0.0.0)
 
 DEPENDENCIES
+  apt-cacher-ng (>= 0)
   awstat (>= 0)
   chef-aggregator (>= 0)
   chef-client (>= 0)

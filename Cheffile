@@ -47,6 +47,10 @@ cookbook 'awstat',
   :git => 'https://github.com/fooforge/chef-cookbook_awstats',
   :ref => '4a9beb71734833fd09693f06dc53f2330ac7f0c4'
 
+cookbook 'apt-cacher-ng',
+  :git => 'https://github.com/shellycloud/apt-cacher-ng',
+  :ref => '8f44fe1e87f1e8d5a8d992223971a8223cde4b40'
+
 # Developpement interne DSI
 #
 cookbook 'chef-iproute2',
