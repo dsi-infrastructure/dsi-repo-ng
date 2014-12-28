@@ -186,6 +186,13 @@ GIT
       chef-iproute2 (>= 0.0.0)
 
 GIT
+  remote: https://github.com/peychart/chef-caimito
+  ref: 658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a
+  sha: 658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a
+  specs:
+    chef-caimito (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-delegate
   ref: 271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5
   sha: 271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5
@@ -316,6 +323,7 @@ DEPENDENCIES
   apt-cacher-ng (>= 0)
   awstat (>= 0)
   chef-aggregator (>= 0)
+  chef-caimito (>= 0)
   chef-client (>= 0)
   chef-delegate (>= 0)
   chef-haproxy-ng (>= 0)

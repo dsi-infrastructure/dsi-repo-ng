@@ -117,3 +117,7 @@ cookbook 'mataara',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-mataara.git',
   :ref => '1dade564841579c7e084f9fc6fa04c611c83aee7'
 
+cookbook 'chef-caimito',
+  :git => 'https://github.com/peychart/chef-caimito',
+  :ref => '658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a'
+
