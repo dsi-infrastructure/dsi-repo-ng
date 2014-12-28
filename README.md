@@ -1,9 +1,6 @@
 ## DSI-REPO-NG
 
-Ce projet permet d'assembler des composants (cookbooks) afin de créer un service en mode déconnecté (comprendre déconnecter de la production) :
-
-* Il est interdit d'utiliser ce projet pour le développement de cookbook "unitaire".
-* Il est interdit d'interagir avec le serveur chef en production.
+Ce projet permet d'assembler des composants (cookbooks) afin de créer un service. Il n'est pas recommander d'utiliser ce projet pour le développement de cookbook "unitaire".
 
 ### Installation de l'environnement
 
@@ -14,7 +11,7 @@ Suivant le système d'exploitation que vous utilisez, la méthode d'installation
 Dans un premier temps, il faut télécharger les softwares suivants et les installer sur votre système.
 
 * Vagrant
-  * vagrant-hostmanager : ```vagrant plugin install vagrant-hostmanager```  
+  * vagrant-hostmanager : ```vagrant plugin install vagrant-hostmanager```
   * vagrant-berkshelf : ```vagrant plugin install vagrant-berkshelf```
 * Virtualbox
 * Chefdk
@@ -59,5 +56,7 @@ Les règles suivantes sont à appliquer :
 * **Chaque fonctionnalité** doivent être **décrite sur la page Issue de Github** avant d'être implémenté ;
 * **Chaque fonctionnalité** doivent faire l'objet d'une **branche spécifique** hérité de la branche "develop" ;
 * Un pull request concerne votre branche spécifique et la branche "develop" **upstream uniquement** ;
+* Un commentaire commence par une **MAJUSCULE** et se termine par un
+  point **.** ;
 * Vous devez **intégrer les modifications** de la branche "develop" **avant** un pull request ;
 * Vous devez **obligatoirement intégrer l'environnement** que vous avez utilisé **dans le fichier Vagrantfile** (ce fichier contiendra la totalité des environnements de l'équipe afin de simplifier la revue et la compréhension des configurations par tous) ;
