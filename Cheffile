@@ -137,3 +137,7 @@ cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
   :ref => '1965ad66e5a5cc9fb861d3fd281f2ec8a33ae7d3'
 
+cookbook 'chef-specific',
+  :git => 'https://github.com/peychart/chef-specific.gov.pf',
+  :ref => '230a34fc8be8f05192d56eb604419fd182bcbced'
+

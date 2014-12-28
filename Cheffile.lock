@@ -274,6 +274,13 @@ GIT
     chef-owncloud (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-specific.gov.pf
+  ref: 230a34fc8be8f05192d56eb604419fd182bcbced
+  sha: 230a34fc8be8f05192d56eb604419fd182bcbced
+  specs:
+    chef-specific (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-squidGuard
   ref: 52a38e77fbf4471019a1e950d7aabff55094e947
   sha: 52a38e77fbf4471019a1e950d7aabff55094e947
@@ -368,6 +375,7 @@ DEPENDENCIES
   chef-qmail (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
+  chef-specific (>= 0)
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
   cookbook-snmp (>= 0)
