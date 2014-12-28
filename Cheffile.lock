@@ -193,6 +193,13 @@ GIT
     chef-caimito (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-crontab
+  ref: 76dcd654c0a5d1c606ce727873dcc0d0947b09d2
+  sha: 76dcd654c0a5d1c606ce727873dcc0d0947b09d2
+  specs:
+    chef-crontab (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-delegate
   ref: 271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5
   sha: 271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5
@@ -325,6 +332,7 @@ DEPENDENCIES
   chef-aggregator (>= 0)
   chef-caimito (>= 0)
   chef-client (>= 0)
+  chef-crontab (>= 0)
   chef-delegate (>= 0)
   chef-haproxy-ng (>= 0)
   chef-hostsfile (>= 0)

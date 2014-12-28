@@ -121,3 +121,7 @@ cookbook 'chef-caimito',
   :git => 'https://github.com/peychart/chef-caimito',
   :ref => '658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a'
 
+cookbook 'chef-crontab',
+  :git => 'https://github.com/peychart/chef-crontab',
+  :ref => '76dcd654c0a5d1c606ce727873dcc0d0947b09d2'
+
