@@ -304,10 +304,11 @@ GIT
 
 GIT
   remote: https://github.com/sitle/chef-monitor
-  ref: 48ceb5b1e1a234c21256cb98683d7bfde3ae2fec
-  sha: 48ceb5b1e1a234c21256cb98683d7bfde3ae2fec
+  ref: 8fa3be73274ec7f54a4e65b9243d49f2a5a5db6f
+  sha: 8fa3be73274ec7f54a4e65b9243d49f2a5a5db6f
   specs:
     chef-monitor (0.1.0)
+      ntp (>= 0.0.0)
       sensu (>= 0.0.0)
       sudo (>= 0.0.0)
       uchiwa (>= 0.0.0)
