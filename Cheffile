@@ -99,7 +99,7 @@ cookbook 'chef-squid_ldap_auth',
 
 cookbook 'openldap',
   :git => 'https://github.com/sitle/openldap',
-  :ref => '85efe51a7d0e44cb63a699125d6d4c98449b5b16'
+  :ref => '48715055172c142cf889b98817a4fa416cb8fbba'
 
 cookbook 'samba',
   :git => 'https://github.com/sitle/chef-samba',
