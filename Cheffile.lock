@@ -135,6 +135,16 @@ GIT
     cookbook-snmp (3.0.1)
 
 GIT
+  remote: https://github.com/coletivoEITA/awstats-cookbook.git
+  ref: f8938852689bf480998c663b0b96f733c9adb40f
+  sha: f8938852689bf480998c663b0b96f733c9adb40f
+  specs:
+    awstat (0.2.2)
+      apache2 (>= 2.0.0)
+      cron (>= 0.0.0)
+      htpasswd (>= 0.0.0)
+
+GIT
   remote: https://github.com/dsi-infrastructure/chef-reverseproxy
   ref: 5e11cc350747ebb6edb6c656c74128af36b1ff47
   sha: 5e11cc350747ebb6edb6c656c74128af36b1ff47
@@ -142,15 +152,6 @@ GIT
     chef-reverseproxy (0.1.0)
       apache2 (>= 0.0.0)
       hostsfile (>= 0.0.0)
-
-GIT
-  remote: https://github.com/fooforge/chef-cookbook_awstats
-  ref: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
-  sha: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
-  specs:
-    awstat (0.2.2)
-      apache2 (>= 0.0.0)
-      htpasswd (>= 0.0.0)
 
 GIT
   remote: https://github.com/hw-cookbooks/haproxy
