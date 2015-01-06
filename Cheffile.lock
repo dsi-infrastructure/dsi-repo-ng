@@ -329,10 +329,10 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-qmail
-  ref: 19e3df42d060e3adae9ec65b156d4eb3534866db
-  sha: 19e3df42d060e3adae9ec65b156d4eb3534866db
+  ref: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
+  sha: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
   specs:
-    chef-qmail (0.1.0)
+    qmail (0.1.0)
 
 GIT
   remote: https://github.com/viverae-cookbooks/sysctl
@@ -370,7 +370,6 @@ DEPENDENCIES
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
   chef-owncloud (>= 0)
-  chef-qmail (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
   chef-specific (>= 0)
@@ -391,6 +390,7 @@ DEPENDENCIES
   ohai (>= 0)
   openldap (>= 0)
   postfix (>= 0)
+  qmail (>= 0)
   resolver (>= 0)
   rsyslog (>= 0)
   samba (>= 0)
