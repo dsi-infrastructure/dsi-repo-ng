@@ -44,8 +44,8 @@ cookbook 'sysctl',
   :ref => '8d0bcf83179a59b1bc83c57be143b990c2d395e4'
 
 cookbook 'awstat',
-  :git => 'https://github.com/fooforge/chef-cookbook_awstats',
-  :ref => '4a9beb71734833fd09693f06dc53f2330ac7f0c4'
+  :git => 'https://github.com/coletivoEITA/awstats-cookbook.git',
+  :ref => 'f8938852689bf480998c663b0b96f733c9adb40f'
 
 cookbook 'apt-cacher-ng',
   :git => 'https://github.com/shellycloud/apt-cacher-ng',
