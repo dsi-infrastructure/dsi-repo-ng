@@ -303,10 +303,11 @@ GIT
 
 GIT
   remote: https://github.com/sitle/chef-monitor
-  ref: 8fa3be73274ec7f54a4e65b9243d49f2a5a5db6f
-  sha: 8fa3be73274ec7f54a4e65b9243d49f2a5a5db6f
+  ref: 365cccfa63a819001a3650e458bc6efe42d414b1
+  sha: 365cccfa63a819001a3650e458bc6efe42d414b1
   specs:
     chef-monitor (0.1.0)
+      apache2 (>= 0.0.0)
       ntp (>= 0.0.0)
       sensu (>= 0.0.0)
       sudo (>= 0.0.0)
