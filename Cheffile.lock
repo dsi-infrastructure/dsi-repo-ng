@@ -328,6 +328,14 @@ GIT
     openldap (0.1.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-dsi-users
+  ref: cd0831330a2812a3c68d5bed678d852115247d7d
+  sha: cd0831330a2812a3c68d5bed678d852115247d7d
+  specs:
+    dsi-users (0.1.0)
+      sudo (>= 0.0.0)
+
+GIT
   remote: https://github.com/stephaneLII/chef-qmail
   ref: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
   sha: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
@@ -377,6 +385,7 @@ DEPENDENCIES
   chef-squid_ldap_auth (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
+  dsi-users (>= 0)
   elasticsearch (>= 0)
   haproxy (>= 0)
   iptables-ng (>= 0)
