@@ -141,3 +141,6 @@ cookbook 'chef-specific',
   :git => 'https://github.com/peychart/chef-specific.gov.pf',
   :ref => '230a34fc8be8f05192d56eb604419fd182bcbced'
 
+cookbook 'dsi-users',
+  :git => 'https://github.com/stephaneLII/chef-dsi-users',
+  :ref => 'cd0831330a2812a3c68d5bed678d852115247d7d'
