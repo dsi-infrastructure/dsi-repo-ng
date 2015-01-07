@@ -44,8 +44,8 @@ cookbook 'sysctl',
   :ref => '8d0bcf83179a59b1bc83c57be143b990c2d395e4'
 
 cookbook 'awstat',
-  :git => 'https://github.com/fooforge/chef-cookbook_awstats',
-  :ref => '4a9beb71734833fd09693f06dc53f2330ac7f0c4'
+  :git => 'https://github.com/coletivoEITA/awstats-cookbook.git',
+  :ref => 'f8938852689bf480998c663b0b96f733c9adb40f'
 
 cookbook 'apt-cacher-ng',
   :git => 'https://github.com/shellycloud/apt-cacher-ng',
@@ -85,9 +85,9 @@ cookbook 'chef-nodeAttributes',
   :git => 'https://github.com/peychart/chef-nodeAttributes',
   :ref => 'f8c8ae84a426ee328640b90f1011a1fe4826dc5d'
 
-cookbook 'chef-qmail',
+cookbook 'qmail',
   :git => 'https://github.com/stephaneLII/chef-qmail',
-  :ref => '19e3df42d060e3adae9ec65b156d4eb3534866db'
+  :ref => '7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607'
 
 cookbook 'chef-squidGuard',
   :git => 'https://github.com/peychart/chef-squidGuard',
@@ -99,7 +99,7 @@ cookbook 'chef-squid_ldap_auth',
 
 cookbook 'openldap',
   :git => 'https://github.com/sitle/openldap',
-  :ref => '85efe51a7d0e44cb63a699125d6d4c98449b5b16'
+  :ref => '48715055172c142cf889b98817a4fa416cb8fbba'
 
 cookbook 'samba',
   :git => 'https://github.com/sitle/chef-samba',
@@ -107,7 +107,7 @@ cookbook 'samba',
 
 cookbook 'chef-monitor',
   :git => 'https://github.com/sitle/chef-monitor',
-  :ref => '8fa3be73274ec7f54a4e65b9243d49f2a5a5db6f'
+  :ref => '365cccfa63a819001a3650e458bc6efe42d414b1'
 
 cookbook 'chef-reverseproxy',
   :git => 'https://github.com/dsi-infrastructure/chef-reverseproxy',
@@ -141,3 +141,6 @@ cookbook 'chef-specific',
   :git => 'https://github.com/peychart/chef-specific.gov.pf',
   :ref => '230a34fc8be8f05192d56eb604419fd182bcbced'
 
+cookbook 'dsi-users',
+  :git => 'https://github.com/stephaneLII/chef-dsi-users',
+  :ref => 'cd0831330a2812a3c68d5bed678d852115247d7d'

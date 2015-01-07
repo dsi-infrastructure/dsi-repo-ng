@@ -79,8 +79,6 @@ SITE
       yum-epel (>= 0.0.0)
     nscd (0.12.0)
     ntp (1.7.0)
-    openssh (1.3.4)
-      iptables (>= 0.0.0)
     openssl (2.0.0)
       chef-sugar (>= 0.0.0)
     postfix (3.6.2)
@@ -137,6 +135,16 @@ GIT
     cookbook-snmp (3.0.1)
 
 GIT
+  remote: https://github.com/coletivoEITA/awstats-cookbook.git
+  ref: f8938852689bf480998c663b0b96f733c9adb40f
+  sha: f8938852689bf480998c663b0b96f733c9adb40f
+  specs:
+    awstat (0.2.2)
+      apache2 (>= 2.0.0)
+      cron (>= 0.0.0)
+      htpasswd (>= 0.0.0)
+
+GIT
   remote: https://github.com/dsi-infrastructure/chef-reverseproxy
   ref: 5e11cc350747ebb6edb6c656c74128af36b1ff47
   sha: 5e11cc350747ebb6edb6c656c74128af36b1ff47
@@ -144,15 +152,6 @@ GIT
     chef-reverseproxy (0.1.0)
       apache2 (>= 0.0.0)
       hostsfile (>= 0.0.0)
-
-GIT
-  remote: https://github.com/fooforge/chef-cookbook_awstats
-  ref: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
-  sha: 4a9beb71734833fd09693f06dc53f2330ac7f0c4
-  specs:
-    awstat (0.2.2)
-      apache2 (>= 0.0.0)
-      htpasswd (>= 0.0.0)
 
 GIT
   remote: https://github.com/hw-cookbooks/haproxy
@@ -304,10 +303,11 @@ GIT
 
 GIT
   remote: https://github.com/sitle/chef-monitor
-  ref: 8fa3be73274ec7f54a4e65b9243d49f2a5a5db6f
-  sha: 8fa3be73274ec7f54a4e65b9243d49f2a5a5db6f
+  ref: 365cccfa63a819001a3650e458bc6efe42d414b1
+  sha: 365cccfa63a819001a3650e458bc6efe42d414b1
   specs:
     chef-monitor (0.1.0)
+      apache2 (>= 0.0.0)
       ntp (>= 0.0.0)
       sensu (>= 0.0.0)
       sudo (>= 0.0.0)
@@ -323,19 +323,25 @@ GIT
 
 GIT
   remote: https://github.com/sitle/openldap
-  ref: 85efe51a7d0e44cb63a699125d6d4c98449b5b16
-  sha: 85efe51a7d0e44cb63a699125d6d4c98449b5b16
+  ref: 48715055172c142cf889b98817a4fa416cb8fbba
+  sha: 48715055172c142cf889b98817a4fa416cb8fbba
   specs:
-    openldap (1.12.11)
-      openssh (>= 0.0.0)
-      openssl (>= 0.0.0)
+    openldap (0.1.0)
+
+GIT
+  remote: https://github.com/stephaneLII/chef-dsi-users
+  ref: cd0831330a2812a3c68d5bed678d852115247d7d
+  sha: cd0831330a2812a3c68d5bed678d852115247d7d
+  specs:
+    dsi-users (0.1.0)
+      sudo (>= 0.0.0)
 
 GIT
   remote: https://github.com/stephaneLII/chef-qmail
-  ref: 19e3df42d060e3adae9ec65b156d4eb3534866db
-  sha: 19e3df42d060e3adae9ec65b156d4eb3534866db
+  ref: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
+  sha: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
   specs:
-    chef-qmail (0.1.0)
+    qmail (0.1.0)
 
 GIT
   remote: https://github.com/viverae-cookbooks/sysctl
@@ -373,7 +379,6 @@ DEPENDENCIES
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
   chef-owncloud (>= 0)
-  chef-qmail (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
   chef-specific (>= 0)
@@ -381,6 +386,7 @@ DEPENDENCIES
   chef-squid_ldap_auth (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
+  dsi-users (>= 0)
   elasticsearch (>= 0)
   haproxy (>= 0)
   iptables-ng (>= 0)
@@ -394,6 +400,7 @@ DEPENDENCIES
   ohai (>= 0)
   openldap (>= 0)
   postfix (>= 0)
+  qmail (>= 0)
   resolver (>= 0)
   rsyslog (>= 0)
   samba (>= 0)
