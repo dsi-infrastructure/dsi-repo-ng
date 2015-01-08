@@ -147,5 +147,5 @@ cookbook 'dsi-users',
 
 cookbook 'chef-squirrelmail',
   :git => 'https://github.com/stephaneLII/chef-squirrelmail',
-  :ref => '60521f9bec7e404967b656b1628a6a93252db260'
+  :ref => 'c9646829db88401b6659a39a6d9f649508c968e9'
 
