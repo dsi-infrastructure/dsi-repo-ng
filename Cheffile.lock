@@ -344,6 +344,14 @@ GIT
     qmail (0.1.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-squirrelmail
+  ref: c9646829db88401b6659a39a6d9f649508c968e9
+  sha: c9646829db88401b6659a39a6d9f649508c968e9
+  specs:
+    chef-squirrelmail (0.1.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://github.com/viverae-cookbooks/sysctl
   ref: 8d0bcf83179a59b1bc83c57be143b990c2d395e4
   sha: 8d0bcf83179a59b1bc83c57be143b990c2d395e4
@@ -384,6 +392,7 @@ DEPENDENCIES
   chef-specific (>= 0)
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
+  chef-squirrelmail (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
   dsi-users (>= 0)
