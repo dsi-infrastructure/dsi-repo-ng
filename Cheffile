@@ -107,7 +107,7 @@ cookbook 'samba',
 
 cookbook 'chef-monitor',
   :git => 'https://github.com/sitle/chef-monitor',
-  :ref => '888465ee5e3dd325c10f958823eb892afebb605c'
+  :ref => '5c7978fbb928cb4ef8e75005c462982749d73179'
 
 cookbook 'chef-reverseproxy',
   :git => 'https://github.com/dsi-infrastructure/chef-reverseproxy',
