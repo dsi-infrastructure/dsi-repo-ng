@@ -302,6 +302,15 @@ GIT
     apt-cacher-ng (0.1.0)
 
 GIT
+  remote: https://github.com/sitle/chef-devops.git
+  ref: b616cb1452c4362ae21a49bece9201075332642b
+  sha: b616cb1452c4362ae21a49bece9201075332642b
+  specs:
+    devops (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://github.com/sitle/chef-monitor
   ref: e28969343df4ce6d09670f97e7aecb8ce268369a
   sha: e28969343df4ce6d09670f97e7aecb8ce268369a
@@ -395,6 +404,7 @@ DEPENDENCIES
   chef-squirrelmail (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
+  devops (>= 0)
   dsi-users (>= 0)
   elasticsearch (>= 0)
   haproxy (>= 0)
