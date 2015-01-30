@@ -303,8 +303,8 @@ GIT
 
 GIT
   remote: https://github.com/sitle/chef-devops.git
-  ref: 9afe27878448236fbbd5a698267c28e7bcc7bcd9
-  sha: 9afe27878448236fbbd5a698267c28e7bcc7bcd9
+  ref: 8d5595d295421a33b3c3fb29a7d2599abeedc7cc
+  sha: 8d5595d295421a33b3c3fb29a7d2599abeedc7cc
   specs:
     devops (0.1.0)
       apache2 (>= 0.0.0)
