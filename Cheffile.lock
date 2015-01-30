@@ -347,8 +347,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-qmail
-  ref: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
-  sha: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
+  ref: 8a1abfb2560e3f216606945b801947f3702c7b3c
+  sha: 8a1abfb2560e3f216606945b801947f3702c7b3c
   specs:
     qmail (0.1.0)
 
