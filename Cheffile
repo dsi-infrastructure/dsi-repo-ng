@@ -151,5 +151,5 @@ cookbook 'chef-squirrelmail',
 
 cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
-  :ref => '503aa5acfc05d4c3cbdc9f05a581f007c8abbb95'
+  :ref => '9afe27878448236fbbd5a698267c28e7bcc7bcd9'
 
