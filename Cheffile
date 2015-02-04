@@ -55,15 +55,11 @@ cookbook 'apt-cacher-ng',
 #
 cookbook 'chef-iproute2',
   :git => 'https://github.com/peychart/chef-iproute2',
-  :ref => '0f678690b208ea32555c439de0bf34a68f02a293'
-
-cookbook 'chef-aggregator',
-  :git => 'https://github.com/peychart/chef-aggregator',
-  :ref => '13c013eecc2ce7d82b1f978581040ce514cc9292'
+  :ref => '5d0b4a7d4f57add41884dcf82f0db6c3e49b5079'
 
 cookbook 'chef-delegate',
   :git => 'https://github.com/peychart/chef-delegate',
-  :ref => '271e7afe3dadb0b3c887b45a43819dfa6ec4ebe5'
+  :ref => 'ce48d107168675545bbb5ff089058e254d8b01a7'
 
 cookbook 'chef-haproxy-ng',
   :git => 'https://github.com/peychart/chef-haproxy-ng',
@@ -79,11 +75,11 @@ cookbook 'chef-ldap-checkbackend',
 
 cookbook 'chef-lvm',
   :git => 'https://github.com/peychart/chef-lvm',
-  :ref => 'd1de3774ed90fec1bb107cb4e8e6df91fa95e16a'
+  :ref => '6cab1c7bc1c602a660224d68c0bf15f492a06ab5'
 
 cookbook 'chef-nodeAttributes',
   :git => 'https://github.com/peychart/chef-nodeAttributes',
-  :ref => 'f8c8ae84a426ee328640b90f1011a1fe4826dc5d'
+  :ref => 'a9af75e1d829aa9c02f1f031e841aa47dbaf932b'
 
 cookbook 'qmail',
   :git => 'https://github.com/stephaneLII/chef-qmail',
@@ -117,10 +113,6 @@ cookbook 'mataara',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-mataara.git',
   :ref => '1dade564841579c7e084f9fc6fa04c611c83aee7'
 
-cookbook 'chef-caimito',
-  :git => 'https://github.com/peychart/chef-caimito',
-  :ref => '658f5ca93eacf2c6a1175ef52ec6cd02dd5e4b6a'
-
 cookbook 'chef-crontab',
   :git => 'https://github.com/peychart/chef-crontab',
   :ref => '76dcd654c0a5d1c606ce727873dcc0d0947b09d2'
@@ -131,15 +123,15 @@ cookbook 'chef-iptables',
 
 cookbook 'chef-iscsiadm',
   :git => 'https://github.com/peychart/chef-iscsiadm',
-  :ref => 'db84a1d9b5612bf1807a6df37a9cdb6bb4a4224a'
+  :ref => '9710ef4dd8f80164253545a776e7e41681464940'
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
-  :ref => '1965ad66e5a5cc9fb861d3fd281f2ec8a33ae7d3'
+  :ref => '719838854ebfa77ab4d1b9935acea258c05474a3'
 
-cookbook 'chef-specific',
-  :git => 'https://github.com/peychart/chef-specific.gov.pf',
-  :ref => '230a34fc8be8f05192d56eb604419fd182bcbced'
+cookbook 'chef-specific-gov-pf',
+  :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
+  :ref => 'a874bb6d596ff0aabeef2aab63d492a199ec6709'
 
 cookbook 'dsi-users',
   :git => 'https://github.com/stephaneLII/chef-dsi-users',
