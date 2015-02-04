@@ -87,7 +87,7 @@ cookbook 'chef-nodeAttributes',
 
 cookbook 'qmail',
   :git => 'https://github.com/stephaneLII/chef-qmail',
-  :ref => '7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607'
+  :ref => '8a1abfb2560e3f216606945b801947f3702c7b3c'
 
 cookbook 'chef-squidGuard',
   :git => 'https://github.com/peychart/chef-squidGuard',
