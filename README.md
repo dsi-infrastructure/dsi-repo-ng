@@ -39,11 +39,6 @@ librarian-chef install --verbose
 
 La récupération des cookbooks risque de prendre un moment suivant les débits de votre connexion internet. 
 
-**Remarque : Il y a un bug avec le nom du cookbook chef-specific.gov.pf, librarian ne sait pas gérer les "." dans les noms de définition de cookbook (dans le fichier "Cheffile"). Il faudra le renommer explicitement après chaque lancement de la commande "librarian-chef install --verbose".** 
-
-````
-mv cookbooks/chef-specific cookbooks/chef-specific.gov.pf
-````
 
 ### Contribuer à ce projet
 
