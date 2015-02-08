@@ -145,6 +145,15 @@ GIT
       htpasswd (>= 0.0.0)
 
 GIT
+  remote: https://github.com/dsi-infrastructure/chef-dsi-users
+  ref: b442139edc932c465a7b20bc2c4dfde9779bd40b
+  sha: b442139edc932c465a7b20bc2c4dfde9779bd40b
+  specs:
+    dsi-users (0.1.0)
+      apt (>= 0.0.0)
+      sudo (>= 0.0.0)
+
+GIT
   remote: https://github.com/dsi-infrastructure/chef-reverseproxy
   ref: 5e11cc350747ebb6edb6c656c74128af36b1ff47
   sha: 5e11cc350747ebb6edb6c656c74128af36b1ff47
@@ -314,14 +323,6 @@ GIT
   sha: 48715055172c142cf889b98817a4fa416cb8fbba
   specs:
     openldap (0.1.0)
-
-GIT
-  remote: https://github.com/stephaneLII/chef-dsi-users
-  ref: cd0831330a2812a3c68d5bed678d852115247d7d
-  sha: cd0831330a2812a3c68d5bed678d852115247d7d
-  specs:
-    dsi-users (0.1.0)
-      sudo (>= 0.0.0)
 
 GIT
   remote: https://github.com/stephaneLII/chef-qmail
