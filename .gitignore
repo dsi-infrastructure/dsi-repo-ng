@@ -1,6 +1,7 @@
 .vagrant/
 tmp/
 cookbooks/
+cookbooks.dev/
 .chef/*.pem
 .chef/knife.rb
 .chef/encrypted_data_bag_secret
