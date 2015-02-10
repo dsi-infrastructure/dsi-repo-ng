@@ -147,5 +147,5 @@ cookbook 'devops',
 
 cookbook 'chef-tomcat-application',
   :git => 'https://github.com/peychart/chef-tomcat-application.git',
-  :ref => 'f5895c3b1133066cb9faeb48da8c7d6bc1a630b6'
+  :ref => 'e4723193b07f9ac462bc88fa80177ee21fdd91fb'
 
