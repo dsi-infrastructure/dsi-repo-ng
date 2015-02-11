@@ -109,6 +109,9 @@ SITE
     squid (0.5.2)
     sudo (2.7.1)
     timezone (0.0.1)
+    tomcat (0.17.0)
+      java (>= 0.0.0)
+      openssl (>= 0.0.0)
     uchiwa (1.0.0)
       apt (>= 0.0.0)
       nodejs (>= 0.0.0)
@@ -273,6 +276,15 @@ GIT
     chef-squid_ldap_auth (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-tomcat-application.git
+  ref: f5895c3b1133066cb9faeb48da8c7d6bc1a630b6
+  sha: f5895c3b1133066cb9faeb48da8c7d6bc1a630b6
+  specs:
+    chef-tomcat-application (0.1.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://github.com/shellycloud/apt-cacher-ng
   ref: 8f44fe1e87f1e8d5a8d992223971a8223cde4b40
   sha: 8f44fe1e87f1e8d5a8d992223971a8223cde4b40
@@ -385,6 +397,7 @@ DEPENDENCIES
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
+  chef-tomcat-application (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
   devops (>= 0)
