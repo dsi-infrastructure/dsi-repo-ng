@@ -109,6 +109,9 @@ SITE
     squid (0.5.2)
     sudo (2.7.1)
     timezone (0.0.1)
+    tomcat (0.17.0)
+      java (>= 0.0.0)
+      openssl (>= 0.0.0)
     uchiwa (1.0.0)
       apt (>= 0.0.0)
       nodejs (>= 0.0.0)
@@ -325,6 +328,27 @@ GIT
     openldap (0.1.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-geoserver
+  ref: dec58cea761e90068948d62534b122c8db7635bd
+  sha: dec58cea761e90068948d62534b122c8db7635bd
+  specs:
+    chef-geoserver (0.1.0)
+      apt (>= 0.0.0)
+      ark (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
+  remote: https://github.com/stephaneLII/chef-postgis
+  ref: 41f7aab27740d0fa75247d8c11128e481705b646
+  sha: 41f7aab27740d0fa75247d8c11128e481705b646
+  specs:
+    chef-postgis (0.1.0)
+      apt (>= 0.0.0)
+      database (~> 2.3.1)
+      postgresql (>= 0.0.0)
+
+GIT
   remote: https://github.com/stephaneLII/chef-qmail
   ref: 8a1abfb2560e3f216606945b801947f3702c7b3c
   sha: 8a1abfb2560e3f216606945b801947f3702c7b3c
@@ -370,6 +394,7 @@ DEPENDENCIES
   chef-client (>= 0)
   chef-crontab (>= 0)
   chef-delegate (>= 0)
+  chef-geoserver (>= 0)
   chef-haproxy-ng (>= 0)
   chef-hostsfile (>= 0)
   chef-iproute2 (>= 0)
@@ -380,6 +405,7 @@ DEPENDENCIES
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
   chef-owncloud (>= 0)
+  chef-postgis (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
   chef-specific-gov-pf (>= 0)
