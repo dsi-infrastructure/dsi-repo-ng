@@ -277,8 +277,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-tomcat-application.git
-  ref: f5895c3b1133066cb9faeb48da8c7d6bc1a630b6
-  sha: f5895c3b1133066cb9faeb48da8c7d6bc1a630b6
+  ref: d133678ff41c44bc9f5693e4f81446042644fc69
+  sha: d133678ff41c44bc9f5693e4f81446042644fc69
   specs:
     chef-tomcat-application (0.1.0)
       java (>= 0.0.0)
