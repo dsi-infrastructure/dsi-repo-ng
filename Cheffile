@@ -152,3 +152,7 @@ cookbook 'chef-geoserver',
 cookbook 'chef-postgis',
   :git => 'https://github.com/stephaneLII/chef-postgis',
   :ref => '41f7aab27740d0fa75247d8c11128e481705b646'
+
+cookbook 'chef-tefenua-geoserver',
+  :git => 'https://github.com/stephaneLII/chef-tefenua-geoserver',
+  :ref => 'd543ab6c76c57411df066362e32c7696d47f16e5'
