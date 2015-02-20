@@ -364,6 +364,16 @@ GIT
       apt (>= 0.0.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-tefenua-geoserver
+  ref: d543ab6c76c57411df066362e32c7696d47f16e5
+  sha: d543ab6c76c57411df066362e32c7696d47f16e5
+  specs:
+    chef-tefenua-geoserver (0.1.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://github.com/viverae-cookbooks/sysctl
   ref: 8d0bcf83179a59b1bc83c57be143b990c2d395e4
   sha: 8d0bcf83179a59b1bc83c57be143b990c2d395e4
@@ -412,6 +422,7 @@ DEPENDENCIES
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
+  chef-tefenua-geoserver (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
   devops (>= 0)
