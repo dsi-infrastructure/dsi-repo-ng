@@ -6,5 +6,6 @@ cookbooks.dev/
 .chef/knife.rb
 .chef/encrypted_data_bag_secret
 .chef/syntax_check_cache
+syntax_check_cache/
 backup.sh
 secret_key
