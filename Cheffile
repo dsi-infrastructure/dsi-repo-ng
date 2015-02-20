@@ -145,3 +145,10 @@ cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
   :ref => '8d5595d295421a33b3c3fb29a7d2599abeedc7cc'
 
+cookbook 'chef-geoserver',
+  :git => 'https://github.com/stephaneLII/chef-geoserver',
+  :ref => 'dec58cea761e90068948d62534b122c8db7635bd'
+
+cookbook 'chef-postgis',
+  :git => 'https://github.com/stephaneLII/chef-postgis',
+  :ref => '41f7aab27740d0fa75247d8c11128e481705b646'
