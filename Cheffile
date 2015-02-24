@@ -59,7 +59,7 @@ cookbook 'chef-iproute2',
 
 cookbook 'chef-delegate',
   :git => 'https://github.com/peychart/chef-delegate',
-  :ref => 'c51e23b5280915b5b5050d47e9a31e639265c06f'
+  :ref => 'fb8b8f124fcda41b5a6669fd69fb77a4ea67b801'
 
 cookbook 'chef-haproxy-ng',
   :git => 'https://github.com/peychart/chef-haproxy-ng',
