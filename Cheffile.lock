@@ -349,6 +349,16 @@ GIT
       postgresql (>= 0.0.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-postgresql
+  ref: 188561c9aa66d388d705f4045dfde0f476a9fb65
+  sha: 188561c9aa66d388d705f4045dfde0f476a9fb65
+  specs:
+    chef-postgresql (0.1.0)
+      apt (>= 0.0.0)
+      database (~> 2.3.1)
+      postgresql (>= 0.0.0)
+
+GIT
   remote: https://github.com/stephaneLII/chef-qmail
   ref: 8a1abfb2560e3f216606945b801947f3702c7b3c
   sha: 8a1abfb2560e3f216606945b801947f3702c7b3c
@@ -416,6 +426,7 @@ DEPENDENCIES
   chef-nodeAttributes (>= 0)
   chef-owncloud (>= 0)
   chef-postgis (>= 0)
+  chef-postgresql (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
   chef-specific-gov-pf (>= 0)
