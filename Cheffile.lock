@@ -340,8 +340,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-postgis
-  ref: fa4c24d0aaeeac919183bfa02ab752b5c864c023
-  sha: fa4c24d0aaeeac919183bfa02ab752b5c864c023
+  ref: 01ac390faa8b0752b02f72d48067a4d2ca8c68b3
+  sha: 01ac390faa8b0752b02f72d48067a4d2ca8c68b3
   specs:
     chef-postgis (0.1.0)
       apt (>= 0.0.0)
@@ -350,8 +350,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-postgresql
-  ref: 188561c9aa66d388d705f4045dfde0f476a9fb65
-  sha: 188561c9aa66d388d705f4045dfde0f476a9fb65
+  ref: 98e93a3d58037e4ff49a05aa5205ca4287bc00ea
+  sha: 98e93a3d58037e4ff49a05aa5205ca4287bc00ea
   specs:
     chef-postgresql (0.1.0)
       apt (>= 0.0.0)
