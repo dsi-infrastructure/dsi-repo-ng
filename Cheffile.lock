@@ -340,8 +340,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-postgis
-  ref: 41f7aab27740d0fa75247d8c11128e481705b646
-  sha: 41f7aab27740d0fa75247d8c11128e481705b646
+  ref: fa4c24d0aaeeac919183bfa02ab752b5c864c023
+  sha: fa4c24d0aaeeac919183bfa02ab752b5c864c023
   specs:
     chef-postgis (0.1.0)
       apt (>= 0.0.0)
@@ -375,8 +375,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-tefenua-geoserver
-  ref: d543ab6c76c57411df066362e32c7696d47f16e5
-  sha: d543ab6c76c57411df066362e32c7696d47f16e5
+  ref: 662a22f60cb00a42cdc1a67d8aab74bfa224cc90
+  sha: 662a22f60cb00a42cdc1a67d8aab74bfa224cc90
   specs:
     chef-tefenua-geoserver (0.1.0)
       apt (>= 0.0.0)
