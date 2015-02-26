@@ -145,9 +145,9 @@ cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
   :ref => '8d5595d295421a33b3c3fb29a7d2599abeedc7cc'
 
-cookbook 'chef-swap',
-  :git => 'https://github.com/peychart/chef-swap.git',
-  :ref => '4d5ccb049faefdae7fcfdfd518292ce572b3a637'
+cookbook 'chef-mkswap',
+  :git => 'https://github.com/peychart/chef-mkswap.git',
+  :ref => '60461f7b59be7d99c8e991f7837b1b201c98cca5'
 
 cookbook 'chef-tomcat-application',
   :git => 'https://github.com/peychart/chef-tomcat-application.git',
