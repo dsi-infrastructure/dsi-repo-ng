@@ -147,7 +147,7 @@ cookbook 'devops',
 
 cookbook 'chef-mkswap',
   :git => 'https://github.com/peychart/chef-mkswap.git',
-  :ref => '016f73c8ee96f256858492947f05a9fa5553e0b8'
+  :ref => '17bf99e7085704ebcd68e40e837c65746a8a98b2'
 
 cookbook 'chef-tomcat-application',
   :git => 'https://github.com/peychart/chef-tomcat-application.git',
