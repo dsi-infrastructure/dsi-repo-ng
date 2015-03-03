@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "ubuntu14.04-chef"
+  config.vm.box = "ubuntu14.10-chef"
   config.vm.box_url = "http://bit.ly/1pK1sQ8"
   config.vm.hostname = "test.toriki.srv.gov.pf"
 

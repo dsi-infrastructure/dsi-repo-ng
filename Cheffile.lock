@@ -188,8 +188,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-delegate
-  ref: ce48d107168675545bbb5ff089058e254d8b01a7
-  sha: ce48d107168675545bbb5ff089058e254d8b01a7
+  ref: fb8b8f124fcda41b5a6669fd69fb77a4ea67b801
+  sha: fb8b8f124fcda41b5a6669fd69fb77a4ea67b801
   specs:
     chef-delegate (0.1.0)
 
@@ -245,6 +245,13 @@ GIT
   specs:
     chef-lvm (0.1.0)
       lvm (>= 0.0.0)
+
+GIT
+  remote: https://github.com/peychart/chef-mkswap.git
+  ref: 17bf99e7085704ebcd68e40e837c65746a8a98b2
+  sha: 17bf99e7085704ebcd68e40e837c65746a8a98b2
+  specs:
+    chef-mkswap (0.1.0)
 
 GIT
   remote: https://github.com/peychart/chef-nodeAttributes
@@ -370,8 +377,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git
-  ref: a874bb6d596ff0aabeef2aab63d492a199ec6709
-  sha: a874bb6d596ff0aabeef2aab63d492a199ec6709
+  ref: b4a3ab15dd3e1a91069a3abc4a490e1988f08432
+  sha: b4a3ab15dd3e1a91069a3abc4a490e1988f08432
   specs:
     chef-specific-gov-pf (0.1.0)
 
@@ -388,6 +395,7 @@ DEPENDENCIES
   chef-iscsiadm (>= 0)
   chef-ldap-checkbackend (>= 0)
   chef-lvm (>= 0)
+  chef-mkswap (>= 0)
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
   chef-owncloud (>= 0)
