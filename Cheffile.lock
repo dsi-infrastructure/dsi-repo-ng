@@ -402,6 +402,15 @@ GIT
       mysql (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/infrastructure/chef-reverse.git
+  ref: 20dcde3d10313c43da8450bf337535a29767d4bd
+  sha: 20dcde3d10313c43da8450bf337535a29767d4bd
+  specs:
+    reverse (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git
   ref: a874bb6d596ff0aabeef2aab63d492a199ec6709
   sha: a874bb6d596ff0aabeef2aab63d492a199ec6709
@@ -453,6 +462,7 @@ DEPENDENCIES
   postfix (>= 0)
   qmail (>= 0)
   resolver (>= 0)
+  reverse (>= 0)
   rsyslog (>= 0)
   samba (>= 0)
   sensu (>= 0)
