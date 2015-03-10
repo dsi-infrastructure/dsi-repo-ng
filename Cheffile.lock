@@ -271,8 +271,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-owncloud
-  ref: 719838854ebfa77ab4d1b9935acea258c05474a3
-  sha: 719838854ebfa77ab4d1b9935acea258c05474a3
+  ref: 06826ff47d811b2a2cff5f0ec4409e2a73df9f83
+  sha: 06826ff47d811b2a2cff5f0ec4409e2a73df9f83
   specs:
     chef-owncloud (0.1.0)
 
@@ -459,8 +459,8 @@ DEPENDENCIES
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
-  chef-tomcat-application (>= 0)
   chef-tefenua-geoserver (>= 0)
+  chef-tomcat-application (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
   devops (>= 0)
@@ -472,6 +472,7 @@ DEPENDENCIES
   limits (>= 0)
   locales (>= 0)
   logstash (>= 0)
+  lvm (>= 0)
   mataara (>= 0)
   nscd (>= 0)
   ntp (>= 0)
