@@ -148,6 +148,15 @@ GIT
       htpasswd (>= 0.0.0)
 
 GIT
+  remote: https://github.com/dsi-infrastructure/chef-dsi-users
+  ref: b442139edc932c465a7b20bc2c4dfde9779bd40b
+  sha: b442139edc932c465a7b20bc2c4dfde9779bd40b
+  specs:
+    dsi-users (0.1.0)
+      apt (>= 0.0.0)
+      sudo (>= 0.0.0)
+
+GIT
   remote: https://github.com/dsi-infrastructure/chef-reverseproxy
   ref: 5e11cc350747ebb6edb6c656c74128af36b1ff47
   sha: 5e11cc350747ebb6edb6c656c74128af36b1ff47
@@ -335,17 +344,40 @@ GIT
     openldap (0.1.0)
 
 GIT
-  remote: https://github.com/stephaneLII/chef-dsi-users
-  ref: cd0831330a2812a3c68d5bed678d852115247d7d
-  sha: cd0831330a2812a3c68d5bed678d852115247d7d
+  remote: https://github.com/stephaneLII/chef-geoserver
+  ref: dec58cea761e90068948d62534b122c8db7635bd
+  sha: dec58cea761e90068948d62534b122c8db7635bd
   specs:
-    dsi-users (0.1.0)
-      sudo (>= 0.0.0)
+    chef-geoserver (0.1.0)
+      apt (>= 0.0.0)
+      ark (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
+  remote: https://github.com/stephaneLII/chef-postgis
+  ref: 01ac390faa8b0752b02f72d48067a4d2ca8c68b3
+  sha: 01ac390faa8b0752b02f72d48067a4d2ca8c68b3
+  specs:
+    chef-postgis (0.1.0)
+      apt (>= 0.0.0)
+      database (~> 2.3.1)
+      postgresql (>= 0.0.0)
+
+GIT
+  remote: https://github.com/stephaneLII/chef-postgresql
+  ref: 98e93a3d58037e4ff49a05aa5205ca4287bc00ea
+  sha: 98e93a3d58037e4ff49a05aa5205ca4287bc00ea
+  specs:
+    chef-postgresql (0.1.0)
+      apt (>= 0.0.0)
+      database (~> 2.3.1)
+      postgresql (>= 0.0.0)
 
 GIT
   remote: https://github.com/stephaneLII/chef-qmail
-  ref: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
-  sha: 7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607
+  ref: 8a1abfb2560e3f216606945b801947f3702c7b3c
+  sha: 8a1abfb2560e3f216606945b801947f3702c7b3c
   specs:
     qmail (0.1.0)
 
@@ -356,6 +388,16 @@ GIT
   specs:
     chef-squirrelmail (0.1.0)
       apt (>= 0.0.0)
+
+GIT
+  remote: https://github.com/stephaneLII/chef-tefenua-geoserver
+  ref: 662a22f60cb00a42cdc1a67d8aab74bfa224cc90
+  sha: 662a22f60cb00a42cdc1a67d8aab74bfa224cc90
+  specs:
+    chef-tefenua-geoserver (0.1.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
 
 GIT
   remote: https://github.com/viverae-cookbooks/sysctl
@@ -376,6 +418,15 @@ GIT
       mysql (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/infrastructure/chef-reverse.git
+  ref: 20dcde3d10313c43da8450bf337535a29767d4bd
+  sha: 20dcde3d10313c43da8450bf337535a29767d4bd
+  specs:
+    reverse (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git
   ref: b4a3ab15dd3e1a91069a3abc4a490e1988f08432
   sha: b4a3ab15dd3e1a91069a3abc4a490e1988f08432
@@ -388,6 +439,7 @@ DEPENDENCIES
   chef-client (>= 0)
   chef-crontab (>= 0)
   chef-delegate (>= 0)
+  chef-geoserver (>= 0)
   chef-haproxy-ng (>= 0)
   chef-hostsfile (>= 0)
   chef-iproute2 (>= 0)
@@ -399,6 +451,8 @@ DEPENDENCIES
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
   chef-owncloud (>= 0)
+  chef-postgis (>= 0)
+  chef-postgresql (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
   chef-specific-gov-pf (>= 0)
@@ -406,6 +460,7 @@ DEPENDENCIES
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
   chef-tomcat-application (>= 0)
+  chef-tefenua-geoserver (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
   devops (>= 0)
@@ -425,6 +480,7 @@ DEPENDENCIES
   postfix (>= 0)
   qmail (>= 0)
   resolver (>= 0)
+  reverse (>= 0)
   rsyslog (>= 0)
   samba (>= 0)
   sensu (>= 0)

@@ -83,7 +83,7 @@ cookbook 'chef-nodeAttributes',
 
 cookbook 'qmail',
   :git => 'https://github.com/stephaneLII/chef-qmail',
-  :ref => '7f0ed0ade2dc93f7d264e58aa84a9ea1b0693607'
+  :ref => '8a1abfb2560e3f216606945b801947f3702c7b3c'
 
 cookbook 'chef-squidGuard',
   :git => 'https://github.com/peychart/chef-squidGuard',
@@ -134,8 +134,8 @@ cookbook 'chef-specific-gov-pf',
   :ref => 'b4a3ab15dd3e1a91069a3abc4a490e1988f08432'
 
 cookbook 'dsi-users',
-  :git => 'https://github.com/stephaneLII/chef-dsi-users',
-  :ref => 'cd0831330a2812a3c68d5bed678d852115247d7d'
+  :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
+  :ref => 'b442139edc932c465a7b20bc2c4dfde9779bd40b'
 
 cookbook 'chef-squirrelmail',
   :git => 'https://github.com/stephaneLII/chef-squirrelmail',
@@ -152,4 +152,24 @@ cookbook 'chef-mkswap',
 cookbook 'chef-tomcat-application',
   :git => 'https://github.com/peychart/chef-tomcat-application.git',
   :ref => 'd133678ff41c44bc9f5693e4f81446042644fc69'
+
+cookbook 'chef-geoserver',
+  :git => 'https://github.com/stephaneLII/chef-geoserver',
+  :ref => 'dec58cea761e90068948d62534b122c8db7635bd'
+
+cookbook 'chef-postgis',
+  :git => 'https://github.com/stephaneLII/chef-postgis',
+  :ref => '01ac390faa8b0752b02f72d48067a4d2ca8c68b3'
+
+cookbook 'chef-tefenua-geoserver',
+  :git => 'https://github.com/stephaneLII/chef-tefenua-geoserver',
+  :ref => '662a22f60cb00a42cdc1a67d8aab74bfa224cc90'
+
+cookbook 'chef-postgresql',
+  :git => 'https://github.com/stephaneLII/chef-postgresql',
+  :ref => '98e93a3d58037e4ff49a05aa5205ca4287bc00ea'
+
+cookbook 'reverse',
+  :git => 'https://gitlab.gov.pf/infrastructure/chef-reverse.git',
+  :ref => '20dcde3d10313c43da8450bf337535a29767d4bd'
 
