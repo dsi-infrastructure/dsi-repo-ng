@@ -59,7 +59,7 @@ cookbook 'chef-iproute2',
 
 cookbook 'chef-delegate',
   :git => 'https://github.com/peychart/chef-delegate',
-  :ref => 'ce48d107168675545bbb5ff089058e254d8b01a7'
+  :ref => 'fb8b8f124fcda41b5a6669fd69fb77a4ea67b801'
 
 cookbook 'chef-haproxy-ng',
   :git => 'https://github.com/peychart/chef-haproxy-ng',
@@ -127,11 +127,11 @@ cookbook 'chef-iscsiadm',
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
-  :ref => '719838854ebfa77ab4d1b9935acea258c05474a3'
+  :ref => '06826ff47d811b2a2cff5f0ec4409e2a73df9f83'
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
-  :ref => 'a874bb6d596ff0aabeef2aab63d492a199ec6709'
+  :ref => 'b4a3ab15dd3e1a91069a3abc4a490e1988f08432'
 
 cookbook 'dsi-users',
   :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
@@ -144,6 +144,14 @@ cookbook 'chef-squirrelmail',
 cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
   :ref => '8d5595d295421a33b3c3fb29a7d2599abeedc7cc'
+
+cookbook 'chef-mkswap',
+  :git => 'https://github.com/peychart/chef-mkswap.git',
+  :ref => '17bf99e7085704ebcd68e40e837c65746a8a98b2'
+
+cookbook 'chef-tomcat-application',
+  :git => 'https://github.com/peychart/chef-tomcat-application.git',
+  :ref => 'd133678ff41c44bc9f5693e4f81446042644fc69'
 
 cookbook 'chef-geoserver',
   :git => 'https://github.com/stephaneLII/chef-geoserver',
