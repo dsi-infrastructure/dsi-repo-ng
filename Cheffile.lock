@@ -66,6 +66,7 @@ SITE
       logrotate (>= 0.0.0)
       python (>= 0.0.0)
       runit (>= 0.0.0)
+    lvm (1.3.6)
     mysql (5.6.1)
       yum-mysql-community (>= 0.0.0)
     mysql-chef_gem (0.0.5)
@@ -248,8 +249,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-lvm
-  ref: 6cab1c7bc1c602a660224d68c0bf15f492a06ab5
-  sha: 6cab1c7bc1c602a660224d68c0bf15f492a06ab5
+  ref: 18ef0f560419acf135677b5780a40f4e4f8f89c1
+  sha: 18ef0f560419acf135677b5780a40f4e4f8f89c1
   specs:
     chef-lvm (0.1.0)
       lvm (>= 0.0.0)
@@ -276,6 +277,13 @@ GIT
     chef-owncloud (0.1.0)
 
 GIT
+  remote: https://github.com/peychart/chef-serviceAttributes
+  ref: 18dee81a7ea2ab0a1b6972a930f7f3354b32d4e7
+  sha: 18dee81a7ea2ab0a1b6972a930f7f3354b32d4e7
+  specs:
+    chef-serviceAttributes (0.1.0)
+
+GIT
   remote: https://github.com/peychart/chef-squidGuard
   ref: 52a38e77fbf4471019a1e950d7aabff55094e947
   sha: 52a38e77fbf4471019a1e950d7aabff55094e947
@@ -292,19 +300,13 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-tomcat-application.git
-  ref: d133678ff41c44bc9f5693e4f81446042644fc69
-  sha: d133678ff41c44bc9f5693e4f81446042644fc69
+  ref: dd41bc1c98949fc635197966a90db59d2cef6e42
+  sha: dd41bc1c98949fc635197966a90db59d2cef6e42
   specs:
     chef-tomcat-application (0.1.0)
+      apt (>= 0.0.0)
       java (>= 0.0.0)
       tomcat (>= 0.0.0)
-
-GIT
-  remote: https://github.com/peychart/lvm
-  ref: c48c3dd7b2aa742ba2580beead1e9d7e90f5122f
-  sha: c48c3dd7b2aa742ba2580beead1e9d7e90f5122f
-  specs:
-    lvm (1.3.6)
 
 GIT
   remote: https://github.com/shellycloud/apt-cacher-ng
@@ -461,6 +463,7 @@ DEPENDENCIES
   chef-postgresql (>= 0)
   chef-reverseproxy (>= 0)
   chef-server (>= 0)
+  chef-serviceAttributes (>= 0)
   chef-specific-gov-pf (>= 0)
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
@@ -478,7 +481,6 @@ DEPENDENCIES
   limits (>= 0)
   locales (>= 0)
   logstash (>= 0)
-  lvm (>= 0)
   mataara (>= 0)
   nscd (>= 0)
   ntp (>= 0)

@@ -5,8 +5,8 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "ubuntu14.04-chef"
-  config.vm.box_url = "http://bit.ly/1pK1sQ8"
+  config.vm.box = "ubuntu-14.04-chef"
+  config.vm.box_url = "http://bit.ly/dsi-ubuntu-1404-box"
   config.vm.hostname = "test.toriki.srv.gov.pf"
 
   # Personalisation du provider : virtualbox
@@ -31,10 +31,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.data_bags_path=["./data_bags"]
     chef.encrypted_data_bag_secret_key_path = ".chef/encrypted_data_bag_secret"
 
-#   chef.add_role("base")
+    chef.add_role("base")
 #   chef.add_role("owncloud")
 
-   #chef.add_recipe "apt::default"
+#   chef.add_recipe "apt::default"
 
    # avant, modifier les attributs par defaut:
     chef.json = {
@@ -44,7 +44,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
-        "recipe[chef-serviceAttributes::default]"
+        "recipe[chef-serviceAttributes::default]",
 #        "recipe[chef-hostsfile::default]",
 #        "recipe[chef-lvm::default]",
 #        "recipe[sysctl::apply]",
@@ -63,7 +63,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 #        "recipe[chef-iscsi::default]"
 #        "recipe[chef-crontab::create]"
 #        "recipe[tomcat::default]"
-#         "recipe[chef-tomcat-application::default]"
+         "recipe[chef-tomcat-application::default]"
     ]
 
 
