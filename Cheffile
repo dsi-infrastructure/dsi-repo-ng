@@ -75,7 +75,11 @@ cookbook 'chef-ldap-checkbackend',
 
 cookbook 'chef-lvm',
   :git => 'https://github.com/peychart/chef-lvm',
-  :ref => '6cab1c7bc1c602a660224d68c0bf15f492a06ab5'
+  :ref => 'bf6eae6c76aee4c4d75e1361bc319af2c5c198e2'
+
+cookbook 'chef-serviceAttributes',
+  :git => 'https://github.com/peychart/chef-serviceAttributes',
+  :ref => '18dee81a7ea2ab0a1b6972a930f7f3354b32d4e7'
 
 cookbook 'chef-nodeAttributes',
   :git => 'https://github.com/peychart/chef-nodeAttributes',
