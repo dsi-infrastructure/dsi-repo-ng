@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "ubuntu14.10-chef"
+  config.vm.box = "ubuntu14.04-chef"
   config.vm.box_url = "http://bit.ly/1pK1sQ8"
   config.vm.hostname = "test.toriki.srv.gov.pf"
 
@@ -26,11 +26,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Provisionner un serveur aggregator avec chef-solo:
   config.vm.provision "chef_solo" do |chef|
     chef.custom_config_path = "Vagrantfile.chef"
-    chef.cookbooks_path = ["cookbooks"]
-    chef.cookbooks_path = ["cookbooks.dev"]
-    chef.roles_path = "roles"
-    chef.data_bags_path=["data_bags"]
-    chef.encrypted_data_bag_secret_key_path = "secret_key"
+    chef.cookbooks_path = ["./cookbooks"]
+    chef.roles_path = "./roles"
+    chef.data_bags_path=["./data_bags"]
+    chef.encrypted_data_bag_secret_key_path = ".chef/encrypted_data_bag_secret"
 
 #   chef.add_role("base")
 #   chef.add_role("owncloud")
@@ -39,31 +38,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
    # avant, modifier les attributs par defaut:
     chef.json = {
-      "chef-nodeAttributes" => {
-#        "databag_name" => [
-#          "cron",
-#          "clusters",
-#          "chef-iptables"
-#        ]
-        "databag_name" => {
-          "roleName" => "lvm",
-          "roleNames" => [
-            "iscsi",
-            "qmail"
-          ],
-          "names" => {
-            "roleName" => "chef-iptables",
-            "roleNames" => [
-              "iscsi",
-              "qmail"
-            ],
-          }
-        }
+      "chef-serviceAttributes" => {
+        "service" => "owncloud"
       }
     }
 
     chef.run_list = [
-        "recipe[chef-nodeAttributes::default]",
+        "recipe[chef-serviceAttributes::default]"
 #        "recipe[chef-hostsfile::default]",
 #        "recipe[chef-lvm::default]",
 #        "recipe[sysctl::apply]",
@@ -82,7 +63,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 #        "recipe[chef-iscsi::default]"
 #        "recipe[chef-crontab::create]"
 #        "recipe[tomcat::default]"
-         "recipe[chef-tomcat-application::default]"
+#         "recipe[chef-tomcat-application::default]"
     ]
 
 
