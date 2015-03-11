@@ -131,7 +131,7 @@ cookbook 'chef-iscsiadm',
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
-  :ref => '06826ff47d811b2a2cff5f0ec4409e2a73df9f83'
+  :ref => '63be0cb616d737bb6415e897665580a8f324f31a'
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
@@ -155,7 +155,7 @@ cookbook 'chef-mkswap',
 
 cookbook 'chef-tomcat-application',
   :git => 'https://github.com/peychart/chef-tomcat-application.git',
-  :ref => 'dd41bc1c98949fc635197966a90db59d2cef6e42'
+  :ref => 'ee046f300448ffccae269b9c6e2337090bc5feb3'
 
 cookbook 'chef-geoserver',
   :git => 'https://github.com/stephaneLII/chef-geoserver',

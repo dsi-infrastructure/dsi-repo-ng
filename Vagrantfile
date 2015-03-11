@@ -31,10 +31,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.data_bags_path=["./data_bags"]
     chef.encrypted_data_bag_secret_key_path = ".chef/encrypted_data_bag_secret"
 
-    chef.add_role("base")
+#   chef.add_role("base")
 #   chef.add_role("owncloud")
 
-#   chef.add_recipe "apt::default"
+#    chef.add_recipe "apt::default"
 
    # avant, modifier les attributs par defaut:
     chef.json = {
@@ -44,7 +44,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
-        "recipe[chef-serviceAttributes::default]",
+#        "recipe[chef-serviceAttributes::default]",
 #        "recipe[chef-hostsfile::default]",
 #        "recipe[chef-lvm::default]",
 #        "recipe[sysctl::apply]",
