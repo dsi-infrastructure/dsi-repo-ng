@@ -271,8 +271,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-owncloud
-  ref: 06826ff47d811b2a2cff5f0ec4409e2a73df9f83
-  sha: 06826ff47d811b2a2cff5f0ec4409e2a73df9f83
+  ref: 3d06525c1bba50662af6dc3c7895393ff3134163
+  sha: 3d06525c1bba50662af6dc3c7895393ff3134163
   specs:
     chef-owncloud (0.1.0)
 
