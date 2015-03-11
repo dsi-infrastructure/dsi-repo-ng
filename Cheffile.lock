@@ -300,13 +300,11 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-tomcat-application.git
-  ref: dd41bc1c98949fc635197966a90db59d2cef6e42
-  sha: dd41bc1c98949fc635197966a90db59d2cef6e42
+  ref: ee046f300448ffccae269b9c6e2337090bc5feb3
+  sha: ee046f300448ffccae269b9c6e2337090bc5feb3
   specs:
     chef-tomcat-application (0.1.0)
       apt (>= 0.0.0)
-      java (>= 0.0.0)
-      tomcat (>= 0.0.0)
 
 GIT
   remote: https://github.com/shellycloud/apt-cacher-ng
