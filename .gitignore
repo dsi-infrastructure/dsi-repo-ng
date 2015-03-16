@@ -8,3 +8,4 @@ cookbooks.dev/
 .chef/syntax_check_cache
 syntax_check_cache/
 backup.sh
+Vagrantfile
