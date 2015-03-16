@@ -271,8 +271,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-owncloud
-  ref: 3d06525c1bba50662af6dc3c7895393ff3134163
-  sha: 3d06525c1bba50662af6dc3c7895393ff3134163
+  ref: 63be0cb616d737bb6415e897665580a8f324f31a
+  sha: 63be0cb616d737bb6415e897665580a8f324f31a
   specs:
     chef-owncloud (0.1.0)
 
@@ -479,6 +479,7 @@ DEPENDENCIES
   limits (>= 0)
   locales (>= 0)
   logstash (>= 0)
+  lvm (>= 0)
   mataara (>= 0)
   nscd (>= 0)
   ntp (>= 0)
