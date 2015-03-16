@@ -479,6 +479,7 @@ DEPENDENCIES
   limits (>= 0)
   locales (>= 0)
   logstash (>= 0)
+  lvm (>= 0)
   mataara (>= 0)
   nscd (>= 0)
   ntp (>= 0)
