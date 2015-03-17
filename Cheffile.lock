@@ -270,10 +270,15 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-owncloud
-  ref: 63be0cb616d737bb6415e897665580a8f324f31a
-  sha: 63be0cb616d737bb6415e897665580a8f324f31a
+  ref: fb24737f72812ec8760b5c4a63bf5c0fcbf2223e
+  sha: fb24737f72812ec8760b5c4a63bf5c0fcbf2223e
   specs:
     chef-owncloud (0.1.0)
+      chef-iptables (>= 0.0.0)
+      chef-iscsiadm (>= 0.0.0)
+      chef-lvm (>= 0.0.0)
+      chef-mkswap (>= 0.0.0)
+      chef-serviceAttributes (>= 0.0.0)
 
 GIT
   remote: https://github.com/peychart/chef-serviceAttributes
@@ -299,8 +304,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-tomcat-application.git
-  ref: ee046f300448ffccae269b9c6e2337090bc5feb3
-  sha: ee046f300448ffccae269b9c6e2337090bc5feb3
+  ref: 4ba5dfd8acd9029d9aa5fa41aba9552904380a20
+  sha: 4ba5dfd8acd9029d9aa5fa41aba9552904380a20
   specs:
     chef-tomcat-application (0.1.0)
       apt (>= 0.0.0)
