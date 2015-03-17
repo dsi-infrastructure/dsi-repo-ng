@@ -159,7 +159,7 @@ cookbook 'chef-mkswap',
 
 cookbook 'chef-tomcat-application',
   :git => 'https://github.com/peychart/chef-tomcat-application.git',
-  :ref => 'ee046f300448ffccae269b9c6e2337090bc5feb3'
+  :ref => '8f052c23b4ef4afbd35f4a15fedaea3e74ecec7c'
 
 cookbook 'chef-geoserver',
   :git => 'https://github.com/stephaneLII/chef-geoserver',
