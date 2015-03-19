@@ -181,3 +181,7 @@ cookbook 'reverse',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-reverse.git',
   :ref => '20dcde3d10313c43da8450bf337535a29767d4bd'
 
+cookbook 'hotufina',
+  :git => 'https://gitlab.gov.pf/dba/chef-hotufina.git',
+  :ref => 'd2563294cc1522d6d57a73eb1f74da038c71650d'
+

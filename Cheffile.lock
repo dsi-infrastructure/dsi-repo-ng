@@ -420,6 +420,15 @@ GIT
       ohai (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/dba/chef-hotufina.git
+  ref: d2563294cc1522d6d57a73eb1f74da038c71650d
+  sha: d2563294cc1522d6d57a73eb1f74da038c71650d
+  specs:
+    hotufina (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/infrastructure/chef-mataara.git
   ref: 1dade564841579c7e084f9fc6fa04c611c83aee7
   sha: 1dade564841579c7e084f9fc6fa04c611c83aee7
@@ -480,6 +489,7 @@ DEPENDENCIES
   dsi-users (>= 0)
   elasticsearch (>= 0)
   haproxy (>= 0)
+  hotufina (>= 0)
   iptables-ng (>= 0)
   keepalived (>= 0)
   limits (>= 0)
