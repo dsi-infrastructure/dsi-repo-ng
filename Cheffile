@@ -179,7 +179,7 @@ cookbook 'chef-postgresql',
 
 cookbook 'reverse',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-reverse.git',
-  :ref => '20dcde3d10313c43da8450bf337535a29767d4bd'
+  :ref => '4fad06dac92fdf077904743d6ac1b2d65b374208'
 
 cookbook 'hotufina',
   :git => 'https://gitlab.gov.pf/dba/chef-hotufina.git',
