@@ -421,10 +421,10 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/dba/chef-hotufina.git
-  ref: d2563294cc1522d6d57a73eb1f74da038c71650d
-  sha: d2563294cc1522d6d57a73eb1f74da038c71650d
+  ref: ac3be0de598ed909e248e69a9ad2ef3f1eddb91a
+  sha: ac3be0de598ed909e248e69a9ad2ef3f1eddb91a
   specs:
-    hotufina (0.1.0)
+    hotufina (0.2.1)
       apache2 (>= 0.0.0)
       apt (>= 0.0.0)
 

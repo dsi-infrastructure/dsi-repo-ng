@@ -183,5 +183,5 @@ cookbook 'reverse',
 
 cookbook 'hotufina',
   :git => 'https://gitlab.gov.pf/dba/chef-hotufina.git',
-  :ref => 'd2563294cc1522d6d57a73eb1f74da038c71650d'
+  :ref => 'ac3be0de598ed909e248e69a9ad2ef3f1eddb91a'
 
