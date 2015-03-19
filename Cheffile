@@ -147,7 +147,7 @@ cookbook 'dsi-users',
 
 cookbook 'chef-squirrelmail',
   :git => 'https://github.com/stephaneLII/chef-squirrelmail',
-  :ref => 'c9646829db88401b6659a39a6d9f649508c968e9'
+  :ref => 'e92e48321b84cf33b7f095ec1cdaab9227e09016'
 
 cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
