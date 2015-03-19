@@ -131,7 +131,7 @@ cookbook 'chef-iptables',
 
 cookbook 'chef-iscsiadm',
   :git => 'https://github.com/peychart/chef-iscsiadm',
-  :ref => '2b072391d576d7c4687a1cb4550a1ad71c3ce17f'
+  :ref => '083cb26fc4e63b98dd9bf711a443427c139b9c89'
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
@@ -156,10 +156,6 @@ cookbook 'devops',
 cookbook 'chef-mkswap',
   :git => 'https://github.com/peychart/chef-mkswap.git',
   :ref => '17bf99e7085704ebcd68e40e837c65746a8a98b2'
-
-cookbook 'chef-tomcat-application',
-  :git => 'https://github.com/peychart/chef-tomcat-application.git',
-  :ref => '4ba5dfd8acd9029d9aa5fa41aba9552904380a20'
 
 cookbook 'chef-geoserver',
   :git => 'https://github.com/stephaneLII/chef-geoserver',
