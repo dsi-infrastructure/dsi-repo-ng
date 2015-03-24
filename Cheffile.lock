@@ -368,8 +368,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-postgis
-  ref: 01ac390faa8b0752b02f72d48067a4d2ca8c68b3
-  sha: 01ac390faa8b0752b02f72d48067a4d2ca8c68b3
+  ref: a6956c6dbdf0ddcbc8dbc92273902da411540ea8
+  sha: a6956c6dbdf0ddcbc8dbc92273902da411540ea8
   specs:
     chef-postgis (0.1.0)
       apt (>= 0.0.0)
