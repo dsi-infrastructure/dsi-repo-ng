@@ -11,3 +11,4 @@ cookbooks.dev/
 .chef/trusted_certs/
 syntax_check_cache/
 backup.sh
+Vagrantfile

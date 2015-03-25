@@ -232,8 +232,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-iscsiadm
-  ref: 2b072391d576d7c4687a1cb4550a1ad71c3ce17f
-  sha: 2b072391d576d7c4687a1cb4550a1ad71c3ce17f
+  ref: a68817b17eb2fad6651cb1baefa89d85daebba1a
+  sha: a68817b17eb2fad6651cb1baefa89d85daebba1a
   specs:
     chef-iscsiadm (0.1.0)
 
@@ -270,10 +270,15 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-owncloud
-  ref: 63be0cb616d737bb6415e897665580a8f324f31a
-  sha: 63be0cb616d737bb6415e897665580a8f324f31a
+  ref: fb24737f72812ec8760b5c4a63bf5c0fcbf2223e
+  sha: fb24737f72812ec8760b5c4a63bf5c0fcbf2223e
   specs:
     chef-owncloud (0.1.0)
+      chef-iptables (>= 0.0.0)
+      chef-iscsiadm (>= 0.0.0)
+      chef-lvm (>= 0.0.0)
+      chef-mkswap (>= 0.0.0)
+      chef-serviceAttributes (>= 0.0.0)
 
 GIT
   remote: https://github.com/peychart/chef-serviceAttributes
@@ -296,14 +301,6 @@ GIT
   sha: 05b3579ed3b7760e78c798cb883be4c43cb567e1
   specs:
     chef-squid_ldap_auth (0.1.0)
-
-GIT
-  remote: https://github.com/peychart/chef-tomcat-application.git
-  ref: ee046f300448ffccae269b9c6e2337090bc5feb3
-  sha: ee046f300448ffccae269b9c6e2337090bc5feb3
-  specs:
-    chef-tomcat-application (0.1.0)
-      apt (>= 0.0.0)
 
 GIT
   remote: https://github.com/peychart/lvm
@@ -482,7 +479,6 @@ DEPENDENCIES
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
   chef-tefenua-geoserver (>= 0)
-  chef-tomcat-application (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
   devops (>= 0)

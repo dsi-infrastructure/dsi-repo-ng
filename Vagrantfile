@@ -7,12 +7,12 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu-14.04-chef"
   config.vm.box_url = "http://bit.ly/dsi-ubuntu-1404-box"
-  config.vm.hostname = "test.toriki.srv.gov.pf"
+  config.vm.hostname = "tomcat.srv.gov.pf"
 
   # Personalisation du provider : virtualbox
   config.vm.provider "virtualbox" do |v|
     v.gui = true
-    v.name = "test"
+    v.name = "tomcat"
     v.memory = 512
     v.cpus = 1
   end
@@ -38,12 +38,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
    # avant, modifier les attributs par defaut:
     chef.json = {
-      "chef-serviceAttributes" => {
-        "service" => "owncloud"
+      "chef-nodeAttributes" => {
+        "service" => "tomcat"
       }
     }
 
     chef.run_list = [
+         "recipe[chef-nodeAttributes::default]",
 #        "recipe[chef-serviceAttributes::default]",
 #        "recipe[chef-hostsfile::default]",
 #        "recipe[chef-lvm::default]",
