@@ -147,7 +147,7 @@ cookbook 'dsi-users',
 
 cookbook 'chef-squirrelmail',
   :git => 'https://github.com/stephaneLII/chef-squirrelmail',
-  :ref => 'c9646829db88401b6659a39a6d9f649508c968e9'
+  :ref => '118aff6cc184cc4da8efc965ed3e08c2e9724573'
 
 cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
@@ -163,11 +163,11 @@ cookbook 'chef-geoserver',
 
 cookbook 'chef-postgis',
   :git => 'https://github.com/stephaneLII/chef-postgis',
-  :ref => '01ac390faa8b0752b02f72d48067a4d2ca8c68b3'
+  :ref => 'a6956c6dbdf0ddcbc8dbc92273902da411540ea8'
 
 cookbook 'chef-tefenua-geoserver',
   :git => 'https://github.com/stephaneLII/chef-tefenua-geoserver',
-  :ref => '662a22f60cb00a42cdc1a67d8aab74bfa224cc90'
+  :ref => 'c05af8a4f318f7b801be8e3f49f6d5cc1ef7d42e'
 
 cookbook 'chef-postgresql',
   :git => 'https://github.com/stephaneLII/chef-postgresql',
@@ -175,5 +175,9 @@ cookbook 'chef-postgresql',
 
 cookbook 'reverse',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-reverse.git',
-  :ref => '20dcde3d10313c43da8450bf337535a29767d4bd'
+  :ref => '4fad06dac92fdf077904743d6ac1b2d65b374208'
+
+cookbook 'hotufina',
+  :git => 'https://gitlab.gov.pf/dba/chef-hotufina.git',
+  :ref => 'ac3be0de598ed909e248e69a9ad2ef3f1eddb91a'
 
