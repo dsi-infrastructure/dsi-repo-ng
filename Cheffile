@@ -181,3 +181,6 @@ cookbook 'hotufina',
   :git => 'https://gitlab.gov.pf/dba/chef-hotufina.git',
   :ref => 'ac3be0de598ed909e248e69a9ad2ef3f1eddb91a'
 
+cookbook 'chef-tefenua-frontal',
+  :git => 'https://github.com/stephaneLII/chef-tefenua-frontal',
+  :ref => '9a581a3d7c683e9e0c735b78d23a63d0baf8e04f'
