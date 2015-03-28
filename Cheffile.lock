@@ -399,6 +399,16 @@ GIT
       apt (>= 0.0.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-tefenua-frontal
+  ref: 9a581a3d7c683e9e0c735b78d23a63d0baf8e04f
+  sha: 9a581a3d7c683e9e0c735b78d23a63d0baf8e04f
+  specs:
+    chef-tefenua-frontal (0.1.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://github.com/stephaneLII/chef-tefenua-geoserver
   ref: c05af8a4f318f7b801be8e3f49f6d5cc1ef7d42e
   sha: c05af8a4f318f7b801be8e3f49f6d5cc1ef7d42e
@@ -478,6 +488,7 @@ DEPENDENCIES
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
+  chef-tefenua-frontal (>= 0)
   chef-tefenua-geoserver (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
