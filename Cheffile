@@ -147,7 +147,7 @@ cookbook 'dsi-users',
 
 cookbook 'chef-squirrelmail',
   :git => 'https://github.com/stephaneLII/chef-squirrelmail',
-  :ref => '118aff6cc184cc4da8efc965ed3e08c2e9724573'
+  :ref => '204e4187d09e11f9d9e5a071f063290f294c4048'
 
 cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
@@ -183,4 +183,4 @@ cookbook 'hotufina',
 
 cookbook 'chef-tefenua-frontal',
   :git => 'https://github.com/stephaneLII/chef-tefenua-frontal',
-  :ref => '9a581a3d7c683e9e0c735b78d23a63d0baf8e04f'
+  :ref => '08aef9b08540fb003eb8f357eefcb8663f47602c'
