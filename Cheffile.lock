@@ -392,11 +392,21 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-squirrelmail
-  ref: 118aff6cc184cc4da8efc965ed3e08c2e9724573
-  sha: 118aff6cc184cc4da8efc965ed3e08c2e9724573
+  ref: 204e4187d09e11f9d9e5a071f063290f294c4048
+  sha: 204e4187d09e11f9d9e5a071f063290f294c4048
   specs:
     chef-squirrelmail (0.1.0)
       apt (>= 0.0.0)
+
+GIT
+  remote: https://github.com/stephaneLII/chef-tefenua-frontal
+  ref: 08aef9b08540fb003eb8f357eefcb8663f47602c
+  sha: 08aef9b08540fb003eb8f357eefcb8663f47602c
+  specs:
+    chef-tefenua-frontal (0.1.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
 
 GIT
   remote: https://github.com/stephaneLII/chef-tefenua-geoserver
@@ -478,6 +488,7 @@ DEPENDENCIES
   chef-squidGuard (>= 0)
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
+  chef-tefenua-frontal (>= 0)
   chef-tefenua-geoserver (>= 0)
   cookbook-snmp (>= 0)
   database (>= 0)
