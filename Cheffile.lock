@@ -364,6 +364,14 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-perdition
+  ref: 12038ae44cc9720faae7bd7d2a8d93e5233a4962
+  sha: 12038ae44cc9720faae7bd7d2a8d93e5233a4962
+  specs:
+    chef-perdition (0.1.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://github.com/stephaneLII/chef-postgis
   ref: 05fd08f1670943f2c6c99fcc8f29c792e57fe1cd
   sha: 05fd08f1670943f2c6c99fcc8f29c792e57fe1cd
@@ -479,6 +487,7 @@ DEPENDENCIES
   chef-monitor (>= 0)
   chef-nodeAttributes (>= 0)
   chef-owncloud (>= 0)
+  chef-perdition (>= 0)
   chef-postgis (>= 0)
   chef-postgresql (>= 0)
   chef-reverseproxy (>= 0)

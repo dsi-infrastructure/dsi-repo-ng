@@ -184,3 +184,7 @@ cookbook 'hotufina',
 cookbook 'chef-tefenua-frontal',
   :git => 'https://github.com/stephaneLII/chef-tefenua-frontal',
   :ref => '08aef9b08540fb003eb8f357eefcb8663f47602c'
+
+cookbook 'chef-perdition',
+  :git => 'https://github.com/stephaneLII/chef-perdition',
+  :ref => '12038ae44cc9720faae7bd7d2a8d93e5233a4962'
