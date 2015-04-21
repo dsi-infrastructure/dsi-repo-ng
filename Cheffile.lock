@@ -400,8 +400,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-squirrelmail
-  ref: 204e4187d09e11f9d9e5a071f063290f294c4048
-  sha: 204e4187d09e11f9d9e5a071f063290f294c4048
+  ref: 32a483521848b31d995c6afdd396d905cb137805
+  sha: 32a483521848b31d995c6afdd396d905cb137805
   specs:
     chef-squirrelmail (0.1.0)
       apt (>= 0.0.0)
