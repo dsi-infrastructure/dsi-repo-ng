@@ -147,7 +147,7 @@ cookbook 'dsi-users',
 
 cookbook 'chef-squirrelmail',
   :git => 'https://github.com/stephaneLII/chef-squirrelmail',
-  :ref => '204e4187d09e11f9d9e5a071f063290f294c4048'
+  :ref => '32a483521848b31d995c6afdd396d905cb137805'
 
 cookbook 'devops',
   :git => 'https://github.com/sitle/chef-devops.git',
@@ -163,7 +163,7 @@ cookbook 'chef-geoserver',
 
 cookbook 'chef-postgis',
   :git => 'https://github.com/stephaneLII/chef-postgis',
-  :ref => 'a6956c6dbdf0ddcbc8dbc92273902da411540ea8'
+  :ref => '05fd08f1670943f2c6c99fcc8f29c792e57fe1cd'
 
 cookbook 'chef-tefenua-geoserver',
   :git => 'https://github.com/stephaneLII/chef-tefenua-geoserver',
@@ -184,3 +184,7 @@ cookbook 'hotufina',
 cookbook 'chef-tefenua-frontal',
   :git => 'https://github.com/stephaneLII/chef-tefenua-frontal',
   :ref => '08aef9b08540fb003eb8f357eefcb8663f47602c'
+
+cookbook 'chef-perdition',
+  :git => 'https://github.com/stephaneLII/chef-perdition',
+  :ref => '12038ae44cc9720faae7bd7d2a8d93e5233a4962'
