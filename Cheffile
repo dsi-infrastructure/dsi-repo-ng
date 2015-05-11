@@ -188,3 +188,8 @@ cookbook 'chef-tefenua-frontal',
 cookbook 'chef-perdition',
   :git => 'https://github.com/stephaneLII/chef-perdition',
   :ref => '12038ae44cc9720faae7bd7d2a8d93e5233a4962'
+
+cookbook 'alfresco4',
+  :git => 'https://gitlab.gov.pf/pnf/chef-alfresco4.git',
+  :ref => '585c25c68c3a4d52d53d68bfab241964726ac6f8'
+

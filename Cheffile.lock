@@ -469,7 +469,22 @@ GIT
   specs:
     chef-specific-gov-pf (0.1.0)
 
+GIT
+  remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
+  ref: 585c25c68c3a4d52d53d68bfab241964726ac6f8
+  sha: 585c25c68c3a4d52d53d68bfab241964726ac6f8
+  specs:
+    alfresco4 (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      ark (>= 0.0.0)
+      database (>= 0.0.0)
+      java (>= 0.0.0)
+      mysql (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
 DEPENDENCIES
+  alfresco4 (>= 0)
   apt-cacher-ng (>= 0)
   awstat (>= 0)
   chef-client (>= 0)
