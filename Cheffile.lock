@@ -364,6 +364,14 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-install-scripts
+  ref: 3303d35702f0e4e5c67d14562cd3f9e458b71cf9
+  sha: 3303d35702f0e4e5c67d14562cd3f9e458b71cf9
+  specs:
+    chef-install-scripts (0.1.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://github.com/stephaneLII/chef-perdition
   ref: 12038ae44cc9720faae7bd7d2a8d93e5233a4962
   sha: 12038ae44cc9720faae7bd7d2a8d93e5233a4962
@@ -493,6 +501,7 @@ DEPENDENCIES
   chef-geoserver (>= 0)
   chef-haproxy-ng (>= 0)
   chef-hostsfile (>= 0)
+  chef-install-scripts (>= 0)
   chef-iproute2 (>= 0)
   chef-iptables (>= 0)
   chef-iscsiadm (>= 0)
