@@ -365,8 +365,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-install-scripts
-  ref: 3303d35702f0e4e5c67d14562cd3f9e458b71cf9
-  sha: 3303d35702f0e4e5c67d14562cd3f9e458b71cf9
+  ref: c332096fa0cee4b2acc5ce86dc13de41aa04b75b
+  sha: c332096fa0cee4b2acc5ce86dc13de41aa04b75b
   specs:
     chef-install-scripts (0.1.0)
       apt (>= 0.0.0)
