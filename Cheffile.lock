@@ -364,6 +364,14 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://github.com/stephaneLII/chef-install-scripts
+  ref: c332096fa0cee4b2acc5ce86dc13de41aa04b75b
+  sha: c332096fa0cee4b2acc5ce86dc13de41aa04b75b
+  specs:
+    chef-install-scripts (0.1.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://github.com/stephaneLII/chef-perdition
   ref: 12038ae44cc9720faae7bd7d2a8d93e5233a4962
   sha: 12038ae44cc9720faae7bd7d2a8d93e5233a4962
@@ -373,8 +381,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-postgis
-  ref: 05fd08f1670943f2c6c99fcc8f29c792e57fe1cd
-  sha: 05fd08f1670943f2c6c99fcc8f29c792e57fe1cd
+  ref: a3378df039cbf1ffb8d735ec884e2e9cd604fd5d
+  sha: a3378df039cbf1ffb8d735ec884e2e9cd604fd5d
   specs:
     chef-postgis (0.1.0)
       apt (>= 0.0.0)
@@ -383,8 +391,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-postgresql
-  ref: 98e93a3d58037e4ff49a05aa5205ca4287bc00ea
-  sha: 98e93a3d58037e4ff49a05aa5205ca4287bc00ea
+  ref: 846d73900127118b754b4a5e5a08779728f19109
+  sha: 846d73900127118b754b4a5e5a08779728f19109
   specs:
     chef-postgresql (0.1.0)
       apt (>= 0.0.0)
@@ -493,6 +501,7 @@ DEPENDENCIES
   chef-geoserver (>= 0)
   chef-haproxy-ng (>= 0)
   chef-hostsfile (>= 0)
+  chef-install-scripts (>= 0)
   chef-iproute2 (>= 0)
   chef-iptables (>= 0)
   chef-iscsiadm (>= 0)
