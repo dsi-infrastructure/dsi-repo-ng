@@ -416,10 +416,11 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-tefenua-frontal
-  ref: 08aef9b08540fb003eb8f357eefcb8663f47602c
-  sha: 08aef9b08540fb003eb8f357eefcb8663f47602c
+  ref: 8ac8744b7eb203e16d34002efaecd400a760360b
+  sha: 8ac8744b7eb203e16d34002efaecd400a760360b
   specs:
     chef-tefenua-frontal (0.1.0)
+      apache2 (>= 0.0.0)
       apt (>= 0.0.0)
       java (>= 0.0.0)
       tomcat (>= 0.0.0)
