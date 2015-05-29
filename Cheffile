@@ -171,7 +171,7 @@ cookbook 'chef-tefenua-geoserver',
 
 cookbook 'chef-postgresql',
   :git => 'https://github.com/stephaneLII/chef-postgresql',
-  :ref => '846d73900127118b754b4a5e5a08779728f19109'
+  :ref => 'd2cc3bb8fa38288b7e45fa4979e15acbae1707bc'
 
 cookbook 'reverse',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-reverse.git',
@@ -195,4 +195,4 @@ cookbook 'alfresco4',
 
 cookbook 'chef-install-scripts',
   :git => 'https://github.com/stephaneLII/chef-install-scripts',
-  :ref => 'c332096fa0cee4b2acc5ce86dc13de41aa04b75b'
+  :ref => '7e3d1ef93a035b5776020ed026e0887c2bb5f3ec'

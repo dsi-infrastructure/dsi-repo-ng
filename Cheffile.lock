@@ -365,8 +365,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-install-scripts
-  ref: c332096fa0cee4b2acc5ce86dc13de41aa04b75b
-  sha: c332096fa0cee4b2acc5ce86dc13de41aa04b75b
+  ref: 7e3d1ef93a035b5776020ed026e0887c2bb5f3ec
+  sha: 7e3d1ef93a035b5776020ed026e0887c2bb5f3ec
   specs:
     chef-install-scripts (0.1.0)
       apt (>= 0.0.0)
@@ -391,8 +391,8 @@ GIT
 
 GIT
   remote: https://github.com/stephaneLII/chef-postgresql
-  ref: 846d73900127118b754b4a5e5a08779728f19109
-  sha: 846d73900127118b754b4a5e5a08779728f19109
+  ref: d2cc3bb8fa38288b7e45fa4979e15acbae1707bc
+  sha: d2cc3bb8fa38288b7e45fa4979e15acbae1707bc
   specs:
     chef-postgresql (0.1.0)
       apt (>= 0.0.0)
