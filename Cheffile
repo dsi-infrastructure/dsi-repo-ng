@@ -191,7 +191,7 @@ cookbook 'chef-perdition',
 
 cookbook 'alfresco4',
   :git => 'https://gitlab.gov.pf/pnf/chef-alfresco4.git',
-  :ref => '585c25c68c3a4d52d53d68bfab241964726ac6f8'
+  :ref => 'db9a8a5becc8f0f3f1c9c13609ce8e55597755b1'
 
 cookbook 'chef-install-scripts',
   :git => 'https://github.com/stephaneLII/chef-install-scripts',

@@ -480,16 +480,16 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
-  ref: 585c25c68c3a4d52d53d68bfab241964726ac6f8
-  sha: 585c25c68c3a4d52d53d68bfab241964726ac6f8
+  ref: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
+  sha: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
   specs:
-    alfresco4 (0.1.0)
+    alfresco4 (0.2.0)
       apache2 (>= 0.0.0)
       apt (>= 0.0.0)
       ark (>= 0.0.0)
-      database (>= 0.0.0)
+      database (~> 2.3.1)
       java (>= 0.0.0)
-      mysql (>= 0.0.0)
+      mysql (~> 5.6.1)
       tomcat (>= 0.0.0)
 
 DEPENDENCIES
