@@ -201,3 +201,7 @@ cookbook 'broker',
   :git => 'https://gitlab.gov.pf/ono/chef-broker.git',
   :ref => 'eea3eb3f182246d543b7cc91a9a81f62399995de'
 
+cookbook 'message',
+  :git => 'https://gitlab.gov.pf/ono/chef-message.git',
+  :ref => 'f6340b65fe757e55a33056a9c9d80138867a1265'
+

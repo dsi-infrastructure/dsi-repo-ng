@@ -492,6 +492,19 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/ono/chef-message.git
+  ref: f6340b65fe757e55a33056a9c9d80138867a1265
+  sha: f6340b65fe757e55a33056a9c9d80138867a1265
+  specs:
+    message (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      database (>= 0.0.0)
+      java (>= 0.0.0)
+      postgresql (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
   ref: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
   sha: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
@@ -552,6 +565,7 @@ DEPENDENCIES
   logstash (>= 0)
   lvm (>= 0)
   mataara (>= 0)
+  message (>= 0)
   nscd (>= 0)
   ntp (>= 0)
   ohai (>= 0)
