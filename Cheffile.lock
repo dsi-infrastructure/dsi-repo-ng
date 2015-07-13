@@ -479,6 +479,19 @@ GIT
     chef-specific-gov-pf (0.1.0)
 
 GIT
+  remote: https://gitlab.gov.pf/ono/chef-broker.git
+  ref: eea3eb3f182246d543b7cc91a9a81f62399995de
+  sha: eea3eb3f182246d543b7cc91a9a81f62399995de
+  specs:
+    broker (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      database (>= 0.0.0)
+      java (>= 0.0.0)
+      postgresql (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
   ref: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
   sha: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
@@ -496,6 +509,7 @@ DEPENDENCIES
   alfresco4 (>= 0)
   apt-cacher-ng (>= 0)
   awstat (>= 0)
+  broker (>= 0)
   chef-client (>= 0)
   chef-crontab (>= 0)
   chef-delegate (>= 0)

@@ -196,3 +196,8 @@ cookbook 'alfresco4',
 cookbook 'chef-install-scripts',
   :git => 'https://github.com/stephaneLII/chef-install-scripts',
   :ref => '7e3d1ef93a035b5776020ed026e0887c2bb5f3ec'
+
+cookbook 'broker',
+  :git => 'https://gitlab.gov.pf/ono/chef-broker.git',
+  :ref => 'eea3eb3f182246d543b7cc91a9a81f62399995de'
+
