@@ -213,3 +213,7 @@ cookbook 'erp',
   :git => 'https://gitlab.gov.pf/ono/chef-erp.git',
   :ref => '3d562fe67b7819138bcd300d25f9c627b6266a53'
 
+cookbook 'permis-am',
+  :git => 'https://gitlab.gov.pf/ono/chef-permis-am.git',
+  :ref => '5809f552904f6d3774ba76b64cbfc8821f686f5f'
+

@@ -516,6 +516,19 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/ono/chef-permis-am.git
+  ref: 5809f552904f6d3774ba76b64cbfc8821f686f5f
+  sha: 5809f552904f6d3774ba76b64cbfc8821f686f5f
+  specs:
+    permis-am (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      database (>= 0.0.0)
+      java (>= 0.0.0)
+      postgresql (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/ono/chef-subcom.git
   ref: f064b990395e06fb984188a862797139d4c139e2
   sha: f064b990395e06fb984188a862797139d4c139e2
@@ -593,6 +606,7 @@ DEPENDENCIES
   ntp (>= 0)
   ohai (>= 0)
   openldap (>= 0)
+  permis-am (>= 0)
   postfix (>= 0)
   qmail (>= 0)
   resolver (>= 0)
