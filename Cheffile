@@ -209,3 +209,7 @@ cookbook 'subcom',
   :git => 'https://gitlab.gov.pf/ono/chef-subcom.git',
   :ref => 'f064b990395e06fb984188a862797139d4c139e2'
 
+cookbook 'erp',
+  :git => 'https://gitlab.gov.pf/ono/chef-erp.git',
+  :ref => 'a0c6af4c4c7b926d6e5cc7f0c8841949cba8b7ca'
+

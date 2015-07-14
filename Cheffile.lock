@@ -492,6 +492,17 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/ono/chef-erp.git
+  ref: a0c6af4c4c7b926d6e5cc7f0c8841949cba8b7ca
+  sha: a0c6af4c4c7b926d6e5cc7f0c8841949cba8b7ca
+  specs:
+    erp (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/ono/chef-message.git
   ref: f6340b65fe757e55a33056a9c9d80138867a1265
   sha: f6340b65fe757e55a33056a9c9d80138867a1265
@@ -567,6 +578,7 @@ DEPENDENCIES
   devops (>= 0)
   dsi-users (>= 0)
   elasticsearch (>= 0)
+  erp (>= 0)
   haproxy (>= 0)
   hotufina (>= 0)
   iptables-ng (>= 0)
