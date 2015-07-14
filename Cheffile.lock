@@ -505,6 +505,17 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/ono/chef-subcom.git
+  ref: f064b990395e06fb984188a862797139d4c139e2
+  sha: f064b990395e06fb984188a862797139d4c139e2
+  specs:
+    subcom (0.1.1)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
   ref: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
   sha: db9a8a5becc8f0f3f1c9c13609ce8e55597755b1
@@ -578,6 +589,7 @@ DEPENDENCIES
   samba (>= 0)
   sensu (>= 0)
   squid (>= 0)
+  subcom (>= 0)
   sudo (>= 0)
   sysctl (>= 0)
   timezone (>= 0)

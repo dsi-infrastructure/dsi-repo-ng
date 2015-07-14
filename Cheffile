@@ -205,3 +205,7 @@ cookbook 'message',
   :git => 'https://gitlab.gov.pf/ono/chef-message.git',
   :ref => 'f6340b65fe757e55a33056a9c9d80138867a1265'
 
+cookbook 'subcom',
+  :git => 'https://gitlab.gov.pf/ono/chef-subcom.git',
+  :ref => 'f064b990395e06fb984188a862797139d4c139e2'
+
