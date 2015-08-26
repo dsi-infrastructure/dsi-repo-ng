@@ -148,8 +148,8 @@ GIT
 
 GIT
   remote: https://github.com/dsi-infrastructure/chef-dsi-users
-  ref: b442139edc932c465a7b20bc2c4dfde9779bd40b
-  sha: b442139edc932c465a7b20bc2c4dfde9779bd40b
+  ref: ca0bdd505c6895a773824c73835838ad30189b03
+  sha: ca0bdd505c6895a773824c73835838ad30189b03
   specs:
     dsi-users (0.1.0)
       apt (>= 0.0.0)
