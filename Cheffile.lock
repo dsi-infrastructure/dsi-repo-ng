@@ -541,8 +541,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
-  ref: 08a3ddf2c950977711441d8b712bc62523c8a37d
-  sha: 08a3ddf2c950977711441d8b712bc62523c8a37d
+  ref: cca3c03575deb6ed8f7e09d20cc28a46f5f39b62
+  sha: cca3c03575deb6ed8f7e09d20cc28a46f5f39b62
   specs:
     alfresco4 (0.2.1)
       apache2 (>= 0.0.0)
