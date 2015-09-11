@@ -63,39 +63,43 @@ cookbook 'chef-delegate',
 
 cookbook 'chef-haproxy-ng',
   :git => 'https://github.com/peychart/chef-haproxy-ng',
-  :ref => '22e4618ba6775797653d78e9d0a80e746af96b82'
+  :ref => '06799cdb59ae7eec00f3750b572258e2c1a6842a'
+
+cookbook 'chef-keepalived',
+  :git => 'https://github.com/peychart/chef-keepalived',
+  :ref => 'a6e01a6dd4aaeb46b8085d24613651a88e77e4a9'
 
 cookbook 'chef-hostsfile',
   :git => 'https://github.com/peychart/chef-hostsfile',
-  :ref => '95a12f38abbb74de2cc231fa63fe14f67a2269a2'
+  :ref => '636dbf3a19384ca3fa3930c6ef57a990c54852c3'
 
 cookbook 'chef-ldap-checkbackend',
   :git => 'https://github.com/peychart/chef-ldap-checkbackend',
   :ref => 'f260d729e64e40e386a82bf9a77f622ed222467d'
 
-cookbook 'lvm',
-  :git => 'https://github.com/peychart/lvm',
-  :ref => 'c48c3dd7b2aa742ba2580beead1e9d7e90f5122f'
-
 cookbook 'chef-lvm',
   :git => 'https://github.com/peychart/chef-lvm',
   :ref => '18ef0f560419acf135677b5780a40f4e4f8f89c1'
 
+cookbook 'lvm',
+  :git => 'https://github.com/peychart/lvm',
+  :ref => 'c48c3dd7b2aa742ba2580beead1e9d7e90f5122f'
+
 cookbook 'chef-serviceAttributes',
   :git => 'https://github.com/peychart/chef-serviceAttributes',
-  :ref => '18dee81a7ea2ab0a1b6972a930f7f3354b32d4e7'
+  :ref => '3747d303930acf2ae6e6b17f4f054b36e230eee9'
 
 cookbook 'chef-nodeAttributes',
   :git => 'https://github.com/peychart/chef-nodeAttributes',
-  :ref => 'a9af75e1d829aa9c02f1f031e841aa47dbaf932b'
+  :ref => '61cd7ace7adb87021190a32bbfa3222f06da5cd7'
 
 cookbook 'qmail',
   :git => 'https://github.com/stephaneLII/chef-qmail',
   :ref => '8a1abfb2560e3f216606945b801947f3702c7b3c'
 
-cookbook 'chef-squidGuard',
-  :git => 'https://github.com/peychart/chef-squidGuard',
-  :ref => '52a38e77fbf4471019a1e950d7aabff55094e947'
+cookbook 'chef-squid',
+  :git => 'https://github.com/peychart/chef-squid',
+  :ref => 'aeb6643e6534c757758131a3e85c22076d7c11e7'
 
 cookbook 'chef-squid_ldap_auth',
   :git => 'https://github.com/peychart/chef-squid_ldap_auth',
@@ -139,7 +143,7 @@ cookbook 'chef-owncloud',
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
-  :ref => 'b4a3ab15dd3e1a91069a3abc4a490e1988f08432'
+  :ref => 'deb042d44d07c0b734a7ee34dc026fd8c02439b2'
 
 cookbook 'dsi-users',
   :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
