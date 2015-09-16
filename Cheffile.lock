@@ -203,15 +203,15 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-haproxy-ng
-  ref: 22e4618ba6775797653d78e9d0a80e746af96b82
-  sha: 22e4618ba6775797653d78e9d0a80e746af96b82
+  ref: 06799cdb59ae7eec00f3750b572258e2c1a6842a
+  sha: 06799cdb59ae7eec00f3750b572258e2c1a6842a
   specs:
     chef-haproxy-ng (0.1.0)
 
 GIT
   remote: https://github.com/peychart/chef-hostsfile
-  ref: 95a12f38abbb74de2cc231fa63fe14f67a2269a2
-  sha: 95a12f38abbb74de2cc231fa63fe14f67a2269a2
+  ref: 636dbf3a19384ca3fa3930c6ef57a990c54852c3
+  sha: 636dbf3a19384ca3fa3930c6ef57a990c54852c3
   specs:
     chef-hostsfile (0.1.0)
       hostsfile (>= 0.0.0)
@@ -236,6 +236,13 @@ GIT
   sha: a68817b17eb2fad6651cb1baefa89d85daebba1a
   specs:
     chef-iscsiadm (0.1.0)
+
+GIT
+  remote: https://github.com/peychart/chef-keepalived
+  ref: a6e01a6dd4aaeb46b8085d24613651a88e77e4a9
+  sha: a6e01a6dd4aaeb46b8085d24613651a88e77e4a9
+  specs:
+    chef-keepalived (1.2.0)
 
 GIT
   remote: https://github.com/peychart/chef-ldap-checkbackend
@@ -263,8 +270,8 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-nodeAttributes
-  ref: a9af75e1d829aa9c02f1f031e841aa47dbaf932b
-  sha: a9af75e1d829aa9c02f1f031e841aa47dbaf932b
+  ref: 61cd7ace7adb87021190a32bbfa3222f06da5cd7
+  sha: 61cd7ace7adb87021190a32bbfa3222f06da5cd7
   specs:
     chef-nodeAttributes (0.1.0)
 
@@ -282,17 +289,17 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-serviceAttributes
-  ref: 18dee81a7ea2ab0a1b6972a930f7f3354b32d4e7
-  sha: 18dee81a7ea2ab0a1b6972a930f7f3354b32d4e7
+  ref: 3747d303930acf2ae6e6b17f4f054b36e230eee9
+  sha: 3747d303930acf2ae6e6b17f4f054b36e230eee9
   specs:
     chef-serviceAttributes (0.1.0)
 
 GIT
-  remote: https://github.com/peychart/chef-squidGuard
-  ref: 52a38e77fbf4471019a1e950d7aabff55094e947
-  sha: 52a38e77fbf4471019a1e950d7aabff55094e947
+  remote: https://github.com/peychart/chef-squid
+  ref: aeb6643e6534c757758131a3e85c22076d7c11e7
+  sha: aeb6643e6534c757758131a3e85c22076d7c11e7
   specs:
-    chef-squidGuard (0.1.0)
+    chef-squid (0.1.0)
       apache2 (>= 0.0.0)
 
 GIT
@@ -473,8 +480,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git
-  ref: b4a3ab15dd3e1a91069a3abc4a490e1988f08432
-  sha: b4a3ab15dd3e1a91069a3abc4a490e1988f08432
+  ref: ca18d64065ce2e14976bc2fcbe9432f0367f0693
+  sha: ca18d64065ce2e14976bc2fcbe9432f0367f0693
   specs:
     chef-specific-gov-pf (0.1.0)
 
@@ -569,6 +576,7 @@ DEPENDENCIES
   chef-iproute2 (>= 0)
   chef-iptables (>= 0)
   chef-iscsiadm (>= 0)
+  chef-keepalived (>= 0)
   chef-ldap-checkbackend (>= 0)
   chef-lvm (>= 0)
   chef-mkswap (>= 0)
@@ -582,7 +590,7 @@ DEPENDENCIES
   chef-server (>= 0)
   chef-serviceAttributes (>= 0)
   chef-specific-gov-pf (>= 0)
-  chef-squidGuard (>= 0)
+  chef-squid (>= 0)
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
   chef-tefenua-frontal (>= 0)
