@@ -143,7 +143,7 @@ cookbook 'chef-owncloud',
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
-  :ref => '2cc1e7ee28e97fa00790c14da35596b9916ba2f3'
+  :ref => '2c1bc7fe7124f8f51ff74f06c3e972e1a8e76cc9'
 
 cookbook 'dsi-users',
   :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
