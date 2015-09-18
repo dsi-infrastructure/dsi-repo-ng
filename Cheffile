@@ -139,7 +139,7 @@ cookbook 'chef-iscsiadm',
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
-  :ref => 'fb24737f72812ec8760b5c4a63bf5c0fcbf2223e'
+  :ref => 'f48ff97559d9c30d296c2a260d4b5daaff3edd56'
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
