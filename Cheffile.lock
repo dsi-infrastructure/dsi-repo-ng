@@ -492,9 +492,31 @@ GIT
       tomcat (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/ono/chef-cas.git
+  ref: e26686fd7bd992b8afc4d2000cb7be6baa489fb4
+  sha: e26686fd7bd992b8afc4d2000cb7be6baa489fb4
+  specs:
+    cas (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
+  remote: https://gitlab.gov.pf/ono/chef-cerbere.git
+  ref: 1842379b36bc42e0d8a1c1d69deec2f0c29aa676
+  sha: 1842379b36bc42e0d8a1c1d69deec2f0c29aa676
+  specs:
+    cerbere (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      java (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/ono/chef-erp.git
-  ref: 3d562fe67b7819138bcd300d25f9c627b6266a53
-  sha: 3d562fe67b7819138bcd300d25f9c627b6266a53
+  ref: 7a7f8e40cf8ac90d4007b2da7e1a3b185f2363d5
+  sha: 7a7f8e40cf8ac90d4007b2da7e1a3b185f2363d5
   specs:
     erp (0.1.1)
       apache2 (>= 0.0.0)
@@ -504,8 +526,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-message.git
-  ref: f6340b65fe757e55a33056a9c9d80138867a1265
-  sha: f6340b65fe757e55a33056a9c9d80138867a1265
+  ref: e15b6cadd8110b667e25abe4889d2803ac8ead97
+  sha: e15b6cadd8110b667e25abe4889d2803ac8ead97
   specs:
     message (0.1.0)
       apache2 (>= 0.0.0)
@@ -517,8 +539,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-permis-am.git
-  ref: 5809f552904f6d3774ba76b64cbfc8821f686f5f
-  sha: 5809f552904f6d3774ba76b64cbfc8821f686f5f
+  ref: eeb6f6f886a6064ead2852fd854f4c7273870583
+  sha: eeb6f6f886a6064ead2852fd854f4c7273870583
   specs:
     permis-am (0.1.0)
       apache2 (>= 0.0.0)
@@ -530,8 +552,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-subcom.git
-  ref: f064b990395e06fb984188a862797139d4c139e2
-  sha: f064b990395e06fb984188a862797139d4c139e2
+  ref: 394369845b574761e0b12b47027bf33d0bb7a38c
+  sha: 394369845b574761e0b12b47027bf33d0bb7a38c
   specs:
     subcom (0.1.1)
       apache2 (>= 0.0.0)
@@ -541,8 +563,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
-  ref: cca3c03575deb6ed8f7e09d20cc28a46f5f39b62
-  sha: cca3c03575deb6ed8f7e09d20cc28a46f5f39b62
+  ref: fa27b1a6991316444ea26f557845dae3ea1c12e2
+  sha: fa27b1a6991316444ea26f557845dae3ea1c12e2
   specs:
     alfresco4 (0.2.1)
       apache2 (>= 0.0.0)
@@ -559,6 +581,8 @@ DEPENDENCIES
   apt-cacher-ng (>= 0)
   awstat (>= 0)
   broker (>= 0)
+  cas (>= 0)
+  cerbere (>= 0)
   chef-client (>= 0)
   chef-crontab (>= 0)
   chef-delegate (>= 0)
