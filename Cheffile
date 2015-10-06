@@ -147,7 +147,7 @@ cookbook 'chef-owncloud',
 
 cookbook 'chef-s3ql',
   :git => 'https://github.com/peychart/chef-s3ql',
-  :ref => '1962cacd084e0479af6a477484d5429301b720f5'
+  :ref => '02da1f4ffa5e47930f6870da6bbb903116707d87'
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
