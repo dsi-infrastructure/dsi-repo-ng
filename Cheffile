@@ -139,7 +139,7 @@ cookbook 'chef-iptables',
 
 cookbook 'chef-iscsiadm',
   :git => 'https://github.com/peychart/chef-iscsiadm',
-  :ref => '089d074dc67be128c6618cb56e408ad203f0b278'
+  :ref => 'bcc43c5f5da8a0048a4f6edc655c23cdf650b59b'
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
