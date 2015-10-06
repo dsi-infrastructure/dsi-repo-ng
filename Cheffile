@@ -91,7 +91,7 @@ cookbook 'chef-serviceAttributes',
 
 cookbook 'chef-nodeAttributes',
   :git => 'https://github.com/peychart/chef-nodeAttributes',
-  :ref => '61cd7ace7adb87021190a32bbfa3222f06da5cd7'
+  :ref => 'b5dc5c19e18dda0622f6f0f099e80dd8254ee5f4'
 
 cookbook 'qmail',
   :git => 'https://github.com/stephaneLII/chef-qmail',
@@ -135,19 +135,23 @@ cookbook 'chef-crontab',
 
 cookbook 'chef-iptables',
   :git => 'https://github.com/peychart/chef-iptables',
-  :ref => 'c760eb5882b7116966dd3ee4524f06616809f144'
+  :ref => '0b66da6636cd88f15611cd474fe8269a5daa4860'
 
 cookbook 'chef-iscsiadm',
   :git => 'https://github.com/peychart/chef-iscsiadm',
-  :ref => 'a68817b17eb2fad6651cb1baefa89d85daebba1a'
+  :ref => 'bcc43c5f5da8a0048a4f6edc655c23cdf650b59b'
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
   :ref => '61716a00a156edbbd45db701216fee76efd88589'
 
+cookbook 'chef-s3ql',
+  :git => 'https://github.com/peychart/chef-s3ql',
+  :ref => '02da1f4ffa5e47930f6870da6bbb903116707d87'
+
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
-  :ref => '2c1bc7fe7124f8f51ff74f06c3e972e1a8e76cc9'
+  :ref => '147dca6fddd68cf4397291a4225f24c7e2dd5fe7'
 
 cookbook 'dsi-users',
   :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
