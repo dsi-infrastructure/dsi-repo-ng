@@ -143,7 +143,7 @@ cookbook 'chef-iscsiadm',
 
 cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
-  :ref => '7421c41d911d401d2e4764967c57d3a97297f0cc'
+  :ref => '1c8e71ed179fc036c408d58e83a08b499fde2c3e'
 
 cookbook 'chef-s3ql',
   :git => 'https://github.com/peychart/chef-s3ql',
