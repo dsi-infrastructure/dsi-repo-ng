@@ -91,7 +91,7 @@ cookbook 'chef-serviceAttributes',
 
 cookbook 'chef-nodeAttributes',
   :git => 'https://github.com/peychart/chef-nodeAttributes',
-  :ref => 'b5dc5c19e18dda0622f6f0f099e80dd8254ee5f4'
+  :ref => '9acb4db5e9cca3d1f913f613c1c1a3b66015015f'
 
 cookbook 'qmail',
   :git => 'https://github.com/stephaneLII/chef-qmail',
