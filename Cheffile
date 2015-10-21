@@ -145,6 +145,10 @@ cookbook 'chef-owncloud',
   :git => 'https://github.com/peychart/chef-owncloud',
   :ref => 'a9277023fbf8dd3dbb8a3fee0aea033a24e784ab'
 
+cookbook 'chef-cloudfuse',
+  :git => 'https://github.com/peychart/chef-cloudfuse',
+  :ref => '45887bf517bac145359cf6de711b7396903ef494'
+
 cookbook 'chef-s3ql',
   :git => 'https://github.com/peychart/chef-s3ql',
   :ref => '587b802de7d68b137c5de07b28d3fca2b8662065'
