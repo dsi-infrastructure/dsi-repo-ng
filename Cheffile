@@ -101,10 +101,6 @@ cookbook 'chef-proxypacfile',
   :git => 'https://github.com/peychart/chef-proxypacfile',
   :ref => 'bec55cfa7534b312e14fb116686296cbe0635ed7'
 
-cookbook 'chef-squid_ldap_auth',
-  :git => 'https://github.com/peychart/chef-squid_ldap_auth',
-  :ref => '05b3579ed3b7760e78c798cb883be4c43cb567e1'
-
 cookbook 'openldap',
   :git => 'https://github.com/sitle/openldap',
   :ref => '48715055172c142cf889b98817a4fa416cb8fbba'
