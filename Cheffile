@@ -73,10 +73,6 @@ cookbook 'chef-hostsfile',
   :git => 'https://github.com/peychart/chef-hostsfile',
   :ref => 'e6fa8ff36532c7ac19f2efc8fc21cf33a03ccfe5'
 
-cookbook 'chef-ldap-checkbackend',
-  :git => 'https://github.com/peychart/chef-ldap-checkbackend',
-  :ref => 'f260d729e64e40e386a82bf9a77f622ed222467d'
-
 cookbook 'chef-lvm',
   :git => 'https://github.com/peychart/chef-lvm',
   :ref => '18ef0f560419acf135677b5780a40f4e4f8f89c1'
