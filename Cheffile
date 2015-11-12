@@ -67,11 +67,11 @@ cookbook 'chef-haproxy-ng',
 
 cookbook 'chef-keepalived',
   :git => 'https://github.com/peychart/chef-keepalived',
-  :ref => 'a6e01a6dd4aaeb46b8085d24613651a88e77e4a9'
+  :ref => 'd4ea871cba8b3c762fdfc55ac38b8a6336e6037c'
 
 cookbook 'chef-hostsfile',
   :git => 'https://github.com/peychart/chef-hostsfile',
-  :ref => '636dbf3a19384ca3fa3930c6ef57a990c54852c3'
+  :ref => 'e6fa8ff36532c7ac19f2efc8fc21cf33a03ccfe5'
 
 cookbook 'chef-ldap-checkbackend',
   :git => 'https://github.com/peychart/chef-ldap-checkbackend',
