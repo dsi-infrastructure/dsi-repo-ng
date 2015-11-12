@@ -66,10 +66,18 @@ SITE
       logrotate (>= 0.0.0)
       python (>= 0.0.0)
       runit (>= 0.0.0)
+    mariadb (0.3.1)
+      apt (>= 0.0.0)
+      yum (>= 0.0.0)
+      yum-epel (>= 0.0.0)
     mysql (5.6.1)
       yum-mysql-community (>= 0.0.0)
     mysql-chef_gem (0.0.5)
       build-essential (>= 0.0.0)
+      mysql (>= 0.0.0)
+    mysql2_chef_gem (1.0.1)
+      build-essential (>= 0.0.0)
+      mariadb (>= 0.0.0)
       mysql (>= 0.0.0)
     nodejs (2.2.0)
       apt (>= 0.0.0)
@@ -148,8 +156,8 @@ GIT
 
 GIT
   remote: https://github.com/dsi-infrastructure/chef-dsi-users
-  ref: ca0bdd505c6895a773824c73835838ad30189b03
-  sha: ca0bdd505c6895a773824c73835838ad30189b03
+  ref: 73da51732ae265bcc3247be4239dbbcaa434afac
+  sha: 73da51732ae265bcc3247be4239dbbcaa434afac
   specs:
     dsi-users (0.1.0)
       apt (>= 0.0.0)
@@ -186,6 +194,13 @@ GIT
   sha: 63b78a4852dbff33cc33fc9753d8f19d2232d8d8
   specs:
     ohai (2.0.2)
+
+GIT
+  remote: https://github.com/peychart/chef-cloudfuse
+  ref: 45887bf517bac145359cf6de711b7396903ef494
+  sha: 45887bf517bac145359cf6de711b7396903ef494
+  specs:
+    chef-cloudfuse (0.1.0)
 
 GIT
   remote: https://github.com/peychart/chef-crontab
@@ -225,15 +240,15 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-iptables
-  ref: c760eb5882b7116966dd3ee4524f06616809f144
-  sha: c760eb5882b7116966dd3ee4524f06616809f144
+  ref: 0b66da6636cd88f15611cd474fe8269a5daa4860
+  sha: 0b66da6636cd88f15611cd474fe8269a5daa4860
   specs:
     chef-iptables (0.1.0)
 
 GIT
   remote: https://github.com/peychart/chef-iscsiadm
-  ref: a68817b17eb2fad6651cb1baefa89d85daebba1a
-  sha: a68817b17eb2fad6651cb1baefa89d85daebba1a
+  ref: bcc43c5f5da8a0048a4f6edc655c23cdf650b59b
+  sha: bcc43c5f5da8a0048a4f6edc655c23cdf650b59b
   specs:
     chef-iscsiadm (0.1.0)
 
@@ -270,15 +285,15 @@ GIT
 
 GIT
   remote: https://github.com/peychart/chef-nodeAttributes
-  ref: 61cd7ace7adb87021190a32bbfa3222f06da5cd7
-  sha: 61cd7ace7adb87021190a32bbfa3222f06da5cd7
+  ref: 9acb4db5e9cca3d1f913f613c1c1a3b66015015f
+  sha: 9acb4db5e9cca3d1f913f613c1c1a3b66015015f
   specs:
     chef-nodeAttributes (0.1.0)
 
 GIT
   remote: https://github.com/peychart/chef-owncloud
-  ref: fb24737f72812ec8760b5c4a63bf5c0fcbf2223e
-  sha: fb24737f72812ec8760b5c4a63bf5c0fcbf2223e
+  ref: a9277023fbf8dd3dbb8a3fee0aea033a24e784ab
+  sha: a9277023fbf8dd3dbb8a3fee0aea033a24e784ab
   specs:
     chef-owncloud (0.1.0)
       chef-iptables (>= 0.0.0)
@@ -286,6 +301,21 @@ GIT
       chef-lvm (>= 0.0.0)
       chef-mkswap (>= 0.0.0)
       chef-serviceAttributes (>= 0.0.0)
+
+GIT
+  remote: https://github.com/peychart/chef-proxypacfile
+  ref: bec55cfa7534b312e14fb116686296cbe0635ed7
+  sha: bec55cfa7534b312e14fb116686296cbe0635ed7
+  specs:
+    chef-proxypacfile (0.1.0)
+      apache2 (>= 0.0.0)
+
+GIT
+  remote: https://github.com/peychart/chef-s3ql
+  ref: 587b802de7d68b137c5de07b28d3fca2b8662065
+  sha: 587b802de7d68b137c5de07b28d3fca2b8662065
+  specs:
+    chef-s3ql (0.1.0)
 
 GIT
   remote: https://github.com/peychart/chef-serviceAttributes
@@ -470,6 +500,32 @@ GIT
       mysql (>= 0.0.0)
 
 GIT
+  remote: https://gitlab.gov.pf/infrastructure/chef-ora.git
+  ref: ab1df94d2cc520128e461a1659e328bf9019354b
+  sha: ab1df94d2cc520128e461a1659e328bf9019354b
+  specs:
+    ora (0.1.0)
+      apache2 (>= 0.0.0)
+      ark (>= 0.0.0)
+      database (>= 0.0.0)
+      java (>= 0.0.0)
+      mysql (>= 0.0.0)
+      mysql2_chef_gem (>= 0.0.0)
+
+GIT
+  remote: https://gitlab.gov.pf/infrastructure/chef-papatumu.git
+  ref: af33690dd6df5bd51c72d308c411881d1c0f0e37
+  sha: af33690dd6df5bd51c72d308c411881d1c0f0e37
+  specs:
+    papatumu (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      database (>= 0.0.0)
+      java (>= 0.0.0)
+      postgresql (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
   remote: https://gitlab.gov.pf/infrastructure/chef-reverse.git
   ref: 4fad06dac92fdf077904743d6ac1b2d65b374208
   sha: 4fad06dac92fdf077904743d6ac1b2d65b374208
@@ -480,17 +536,30 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git
-  ref: ca18d64065ce2e14976bc2fcbe9432f0367f0693
-  sha: ca18d64065ce2e14976bc2fcbe9432f0367f0693
+  ref: 147dca6fddd68cf4397291a4225f24c7e2dd5fe7
+  sha: 147dca6fddd68cf4397291a4225f24c7e2dd5fe7
   specs:
     chef-specific-gov-pf (0.1.0)
 
 GIT
-  remote: https://gitlab.gov.pf/ono/chef-broker.git
-  ref: eea3eb3f182246d543b7cc91a9a81f62399995de
-  sha: eea3eb3f182246d543b7cc91a9a81f62399995de
+  remote: https://gitlab.gov.pf/infrastructure/chef-tefenua.git
+  ref: 7aa3ad395a6a33185905f5ca89a834d87cf3fdc7
+  sha: 7aa3ad395a6a33185905f5ca89a834d87cf3fdc7
   specs:
-    broker (0.1.0)
+    chef-tefenua (0.1.0)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      database (~> 2.3.1)
+      java (>= 0.0.0)
+      postgresql (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+GIT
+  remote: https://gitlab.gov.pf/ono/chef-broker.git
+  ref: 0cbd3779b2ca589a11ea73a01b03aef75c2ea6c1
+  sha: 0cbd3779b2ca589a11ea73a01b03aef75c2ea6c1
+  specs:
+    broker (0.1.1)
       apache2 (>= 0.0.0)
       apt (>= 0.0.0)
       database (>= 0.0.0)
@@ -500,8 +569,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-cas.git
-  ref: e26686fd7bd992b8afc4d2000cb7be6baa489fb4
-  sha: e26686fd7bd992b8afc4d2000cb7be6baa489fb4
+  ref: 69a110416397c89d5660226463b159ac49011cff
+  sha: 69a110416397c89d5660226463b159ac49011cff
   specs:
     cas (0.1.0)
       apache2 (>= 0.0.0)
@@ -511,8 +580,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-cerbere.git
-  ref: 1842379b36bc42e0d8a1c1d69deec2f0c29aa676
-  sha: 1842379b36bc42e0d8a1c1d69deec2f0c29aa676
+  ref: 2241a2e3807e103949c9bf258ecfe585b82425e3
+  sha: 2241a2e3807e103949c9bf258ecfe585b82425e3
   specs:
     cerbere (0.1.0)
       apache2 (>= 0.0.0)
@@ -522,8 +591,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-erp.git
-  ref: 7a7f8e40cf8ac90d4007b2da7e1a3b185f2363d5
-  sha: 7a7f8e40cf8ac90d4007b2da7e1a3b185f2363d5
+  ref: 18a9daa7617260f2bbddb1436f8f41de16a5ac2b
+  sha: 18a9daa7617260f2bbddb1436f8f41de16a5ac2b
   specs:
     erp (0.1.1)
       apache2 (>= 0.0.0)
@@ -533,8 +602,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-message.git
-  ref: e15b6cadd8110b667e25abe4889d2803ac8ead97
-  sha: e15b6cadd8110b667e25abe4889d2803ac8ead97
+  ref: d21c6d76b68267047705788c3e706c9e690bbc56
+  sha: d21c6d76b68267047705788c3e706c9e690bbc56
   specs:
     message (0.1.0)
       apache2 (>= 0.0.0)
@@ -546,8 +615,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-permis-am.git
-  ref: eeb6f6f886a6064ead2852fd854f4c7273870583
-  sha: eeb6f6f886a6064ead2852fd854f4c7273870583
+  ref: 61398bf060b8914dd61399650d37e2a0e828caa6
+  sha: 61398bf060b8914dd61399650d37e2a0e828caa6
   specs:
     permis-am (0.1.0)
       apache2 (>= 0.0.0)
@@ -559,8 +628,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/ono/chef-subcom.git
-  ref: 394369845b574761e0b12b47027bf33d0bb7a38c
-  sha: 394369845b574761e0b12b47027bf33d0bb7a38c
+  ref: 1cc97c396e41a6a62517c866e0bb4e6b4835786e
+  sha: 1cc97c396e41a6a62517c866e0bb4e6b4835786e
   specs:
     subcom (0.1.1)
       apache2 (>= 0.0.0)
@@ -570,8 +639,8 @@ GIT
 
 GIT
   remote: https://gitlab.gov.pf/pnf/chef-alfresco4.git
-  ref: fa27b1a6991316444ea26f557845dae3ea1c12e2
-  sha: fa27b1a6991316444ea26f557845dae3ea1c12e2
+  ref: 29e01b485e8b85a0e3fe762079272c0c9c0d4640
+  sha: 29e01b485e8b85a0e3fe762079272c0c9c0d4640
   specs:
     alfresco4 (0.2.1)
       apache2 (>= 0.0.0)
@@ -591,6 +660,7 @@ DEPENDENCIES
   cas (>= 0)
   cerbere (>= 0)
   chef-client (>= 0)
+  chef-cloudfuse (>= 0)
   chef-crontab (>= 0)
   chef-delegate (>= 0)
   chef-geoserver (>= 0)
@@ -610,13 +680,16 @@ DEPENDENCIES
   chef-perdition (>= 0)
   chef-postgis (>= 0)
   chef-postgresql (>= 0)
+  chef-proxypacfile (>= 0)
   chef-reverseproxy (>= 0)
+  chef-s3ql (>= 0)
   chef-server (>= 0)
   chef-serviceAttributes (>= 0)
   chef-specific-gov-pf (>= 0)
   chef-squid (>= 0)
   chef-squid_ldap_auth (>= 0)
   chef-squirrelmail (>= 0)
+  chef-tefenua (>= 0)
   chef-tefenua-frontal (>= 0)
   chef-tefenua-geoserver (>= 0)
   cookbook-snmp (>= 0)
@@ -635,10 +708,13 @@ DEPENDENCIES
   lvm (>= 0)
   mataara (>= 0)
   message (>= 0)
+  mysql2_chef_gem (>= 0)
   nscd (>= 0)
   ntp (>= 0)
   ohai (>= 0)
   openldap (>= 0)
+  ora (>= 0)
+  papatumu (>= 0)
   permis-am (>= 0)
   postfix (>= 0)
   qmail (>= 0)

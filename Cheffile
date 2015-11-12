@@ -20,6 +20,7 @@ cookbook 'users', :version => '1.7.0'
 cookbook 'sensu', :version => '2.3.0'
 cookbook 'elasticsearch', :version => '0.3.10'
 cookbook 'logstash', :version => '0.11.2'
+cookbook 'mysql2_chef_gem', :version => '1.0.2'
 
 # Cookbook externe via Github
 #
@@ -159,7 +160,7 @@ cookbook 'chef-specific-gov-pf',
 
 cookbook 'dsi-users',
   :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
-  :ref => 'ca0bdd505c6895a773824c73835838ad30189b03'
+  :ref => '73da51732ae265bcc3247be4239dbbcaa434afac'
 
 cookbook 'chef-squirrelmail',
   :git => 'https://github.com/stephaneLII/chef-squirrelmail',
@@ -207,7 +208,7 @@ cookbook 'chef-perdition',
 
 cookbook 'alfresco4',
   :git => 'https://gitlab.gov.pf/pnf/chef-alfresco4.git',
-  :ref => 'fa27b1a6991316444ea26f557845dae3ea1c12e2'
+  :ref => '29e01b485e8b85a0e3fe762079272c0c9c0d4640'
 
 cookbook 'chef-install-scripts',
   :git => 'https://github.com/stephaneLII/chef-install-scripts',
@@ -215,29 +216,41 @@ cookbook 'chef-install-scripts',
 
 cookbook 'broker',
   :git => 'https://gitlab.gov.pf/ono/chef-broker.git',
-  :ref => 'eea3eb3f182246d543b7cc91a9a81f62399995de'
+  :ref => '0cbd3779b2ca589a11ea73a01b03aef75c2ea6c1'
 
 cookbook 'message',
   :git => 'https://gitlab.gov.pf/ono/chef-message.git',
-  :ref => 'e15b6cadd8110b667e25abe4889d2803ac8ead97'
+  :ref => 'd21c6d76b68267047705788c3e706c9e690bbc56'
 
 cookbook 'subcom',
   :git => 'https://gitlab.gov.pf/ono/chef-subcom.git',
-  :ref => '394369845b574761e0b12b47027bf33d0bb7a38c'
+  :ref => '1cc97c396e41a6a62517c866e0bb4e6b4835786e'
 
 cookbook 'erp',
   :git => 'https://gitlab.gov.pf/ono/chef-erp.git',
-  :ref => '7a7f8e40cf8ac90d4007b2da7e1a3b185f2363d5'
+  :ref => '18a9daa7617260f2bbddb1436f8f41de16a5ac2b'
 
 cookbook 'permis-am',
   :git => 'https://gitlab.gov.pf/ono/chef-permis-am.git',
-  :ref => 'eeb6f6f886a6064ead2852fd854f4c7273870583'
+  :ref => '61398bf060b8914dd61399650d37e2a0e828caa6'
 
 cookbook 'cas',
   :git => 'https://gitlab.gov.pf/ono/chef-cas.git',
-  :ref => 'e26686fd7bd992b8afc4d2000cb7be6baa489fb4'
+  :ref => '69a110416397c89d5660226463b159ac49011cff'
 
 cookbook 'cerbere',
   :git => 'https://gitlab.gov.pf/ono/chef-cerbere.git',
-  :ref => '1842379b36bc42e0d8a1c1d69deec2f0c29aa676'
+  :ref => '2241a2e3807e103949c9bf258ecfe585b82425e3'
+
+cookbook 'chef-tefenua',
+  :git => 'https://gitlab.gov.pf/infrastructure/chef-tefenua.git',
+  :ref => '7aa3ad395a6a33185905f5ca89a834d87cf3fdc7'
+
+cookbook 'papatumu',
+  :git => 'https://gitlab.gov.pf/infrastructure/chef-papatumu.git',
+  :ref => 'af33690dd6df5bd51c72d308c411881d1c0f0e37'
+
+cookbook 'ora',
+  :git => 'https://gitlab.gov.pf/infrastructure/chef-ora.git',
+  :ref => 'ab1df94d2cc520128e461a1659e328bf9019354b'
 
