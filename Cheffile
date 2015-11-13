@@ -106,10 +106,6 @@ cookbook 'chef-proxypacfile',
   :git => 'https://github.com/peychart/chef-proxypacfile',
   :ref => 'bec55cfa7534b312e14fb116686296cbe0635ed7'
 
-cookbook 'chef-squid_ldap_auth',
-  :git => 'https://github.com/peychart/chef-squid_ldap_auth',
-  :ref => '05b3579ed3b7760e78c798cb883be4c43cb567e1'
-
 cookbook 'openldap',
   :git => 'https://github.com/sitle/openldap',
   :ref => '48715055172c142cf889b98817a4fa416cb8fbba'
@@ -198,10 +194,6 @@ cookbook 'hotufina',
   :git => 'https://gitlab.gov.pf/dba/chef-hotufina.git',
   :ref => 'ac3be0de598ed909e248e69a9ad2ef3f1eddb91a'
 
-cookbook 'chef-tefenua-frontal',
-  :git => 'https://github.com/stephaneLII/chef-tefenua-frontal',
-  :ref => '8ac8744b7eb203e16d34002efaecd400a760360b'
-
 cookbook 'chef-perdition',
   :git => 'https://github.com/stephaneLII/chef-perdition',
   :ref => '12038ae44cc9720faae7bd7d2a8d93e5233a4962'
@@ -252,5 +244,5 @@ cookbook 'papatumu',
 
 cookbook 'ora',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-ora.git',
-  :ref => 'ab1df94d2cc520128e461a1659e328bf9019354b'
+  :ref => '7ec209c52ee6469bb67cc888d02607e6054831c7'
 
