@@ -67,7 +67,7 @@ cookbook 'chef-haproxy-ng',
 
 cookbook 'chef-keepalived',
   :git => 'https://github.com/peychart/chef-keepalived',
-  :ref => 'd4ea871cba8b3c762fdfc55ac38b8a6336e6037c'
+  :ref => '834378d2c420d3a85e46441f875ae76706670a7c'
 
 cookbook 'chef-hostsfile',
   :git => 'https://github.com/peychart/chef-hostsfile',
