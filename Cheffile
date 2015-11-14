@@ -63,7 +63,7 @@ cookbook 'chef-delegate',
 
 cookbook 'chef-haproxy-ng',
   :git => 'https://github.com/peychart/chef-haproxy-ng',
-  :ref => '0bec0caab8877111185d4d3ffac43c3047cc2158'
+  :ref => 'e7cccd565aa28d67f63b45b5b13cd8ab706bde94'
 
 cookbook 'chef-keepalived',
   :git => 'https://github.com/peychart/chef-keepalived',
