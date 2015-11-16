@@ -75,7 +75,7 @@ cookbook 'chef-hostsfile',
 
 cookbook 'chef-lvm',
   :git => 'https://github.com/peychart/chef-lvm',
-  :ref => '18ef0f560419acf135677b5780a40f4e4f8f89c1'
+  :ref => '3aa20e9c9dab32b55a41415d89d869b2c818e542'
 
 cookbook 'lvm',
   :git => 'https://github.com/peychart/lvm',
