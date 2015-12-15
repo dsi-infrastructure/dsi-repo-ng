@@ -13,7 +13,6 @@ cookbook 'ntp', :version => '1.7.0'
 cookbook 'postfix', :version => '3.6.2'
 cookbook 'resolver', :version => '1.2.0'
 cookbook 'rsyslog', :version => '1.13.0'
-cookbook 'squid', :version => '0.5.2'
 cookbook 'sudo', :version => '2.7.1'
 cookbook 'timezone', :version => '0.0.1'
 cookbook 'users', :version => '1.7.0'
@@ -95,7 +94,7 @@ cookbook 'qmail',
 
 cookbook 'chef-squid',
   :git => 'https://github.com/peychart/chef-squid',
-  :ref => 'aeb6643e6534c757758131a3e85c22076d7c11e7'
+  :ref => 'ee8f488a02bc640ce2803b15618f4a0df36b61e6'
 
 cookbook 'chef-proxypacfile',
   :git => 'https://github.com/peychart/chef-proxypacfile',
@@ -139,7 +138,7 @@ cookbook 'chef-owncloud',
 
 cookbook 'chef-cloudfuse',
   :git => 'https://github.com/peychart/chef-cloudfuse',
-  :ref => '45887bf517bac145359cf6de711b7396903ef494'
+  :ref => '25b8b380dac2f8661d59c24361e121f4576f1248'
 
 cookbook 'chef-s3ql',
   :git => 'https://github.com/peychart/chef-s3ql',
