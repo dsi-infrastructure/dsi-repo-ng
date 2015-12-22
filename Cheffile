@@ -94,7 +94,7 @@ cookbook 'qmail',
 
 cookbook 'chef-squid',
   :git => 'https://github.com/peychart/chef-squid',
-  :ref => 'ee8f488a02bc640ce2803b15618f4a0df36b61e6'
+  :ref => 'e4b496339c4c82aa3c7f49c6be4b8f757ac01e2c'
 
 cookbook 'chef-proxypacfile',
   :git => 'https://github.com/peychart/chef-proxypacfile',
