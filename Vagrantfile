@@ -38,13 +38,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
    # avant, modifier les attributs par defaut:
     chef.json = {
-      "chef-nodeAttributes" => {
-        "service" => "tomcat"
+      "chef-serviceAttributes" => {
+        "service" => "squid"
       }
     }
 
     chef.run_list = [
-         "recipe[chef-nodeAttributes::default]",
+         "recipe[chef-serviceAttributes::default]",
 #        "recipe[chef-serviceAttributes::default]",
 #        "recipe[chef-hostsfile::default]",
 #        "recipe[chef-lvm::default]",
@@ -64,7 +64,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 #        "recipe[chef-iscsi::default]"
 #        "recipe[chef-crontab::create]"
 #        "recipe[tomcat::default]"
-         "recipe[chef-tomcat-application::default]"
+         "recipe[cookbook-nmp:default]"
     ]
 
 
