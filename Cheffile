@@ -94,11 +94,11 @@ cookbook 'qmail',
 
 cookbook 'chef-squid',
   :git => 'https://github.com/peychart/chef-squid',
-  :ref => 'e4b496339c4c82aa3c7f49c6be4b8f757ac01e2c'
+  :ref => '7bc042e155939f627a0e1bad6a77c5d2e3e78e41'
 
 cookbook 'chef-proxypacfile',
   :git => 'https://github.com/peychart/chef-proxypacfile',
-  :ref => 'f3267f06bb11fe42557d7321bcb7054ac6ffebfb'
+  :ref => '02b0ce6519a55f2692c40af24d5ab976931fe372'
 
 cookbook 'openldap',
   :git => 'https://github.com/sitle/openldap',
