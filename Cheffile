@@ -98,7 +98,7 @@ cookbook 'chef-squid',
 
 cookbook 'chef-proxypacfile',
   :git => 'https://github.com/peychart/chef-proxypacfile',
-  :ref => '02b0ce6519a55f2692c40af24d5ab976931fe372'
+  :ref => '08bdefe137e133e1ff599f9af708732c48011734'
 
 cookbook 'openldap',
   :git => 'https://github.com/sitle/openldap',
