@@ -126,7 +126,7 @@ cookbook 'chef-crontab',
 
 cookbook 'chef-iptables',
   :git => 'https://github.com/peychart/chef-iptables',
-  :ref => '3ac47ee877fe1818bc3c400afe01947f46bcad46'
+  :ref => '24525145ae149cfc6ce29d80fd611ea06f4724f1'
 
 cookbook 'chef-iscsiadm',
   :git => 'https://github.com/peychart/chef-iscsiadm',
