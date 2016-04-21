@@ -146,7 +146,7 @@ cookbook 'chef-s3ql',
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
-  :ref => '147dca6fddd68cf4397291a4225f24c7e2dd5fe7'
+  :ref => 'deb042d44d07c0b734a7ee34dc026fd8c02439b2'
 
 cookbook 'dsi-users',
   :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
