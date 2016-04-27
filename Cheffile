@@ -94,7 +94,7 @@ cookbook 'qmail',
 
 cookbook 'chef-squid',
   :git => 'https://github.com/peychart/chef-squid',
-  :ref => '7bc042e155939f627a0e1bad6a77c5d2e3e78e41'
+  :ref => '2b8ebb8072ee34930a61dd1ae4b611100d76ba7d'
 
 cookbook 'chef-proxypacfile',
   :git => 'https://github.com/peychart/chef-proxypacfile',
@@ -146,7 +146,7 @@ cookbook 'chef-s3ql',
 
 cookbook 'chef-specific-gov-pf',
   :git => 'https://gitlab.gov.pf/infrastructure/chef-specifique-gov-pf.git',
-  :ref => 'deb042d44d07c0b734a7ee34dc026fd8c02439b2'
+  :ref => '290fdd2d2b9059236d351892845dea5081120476'
 
 cookbook 'dsi-users',
   :git => 'https://github.com/dsi-infrastructure/chef-dsi-users',
