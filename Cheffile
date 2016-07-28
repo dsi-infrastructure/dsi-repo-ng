@@ -122,7 +122,7 @@ cookbook 'mataara',
 
 cookbook 'chef-crontab',
   :git => 'https://github.com/peychart/chef-crontab',
-  :ref => 'e13906cef54beb70baf75759578729f02f8d2a6a'
+  :ref => '66b0c9934fda2ff4a0e9f48966bcc46886f564a8'
 
 cookbook 'chef-iptables',
   :git => 'https://github.com/peychart/chef-iptables',
